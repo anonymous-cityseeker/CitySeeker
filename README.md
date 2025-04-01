@@ -4,6 +4,8 @@ Here’s the revised README for **CitySeeker** based on your provided content:
 
 <div align="center">
   <h1>CitySeeker: A VLM Benchmark for Implicit Requests in Embodied Urban Navigation</h1>
+<img src="assets/4.png" width="93%"/>  
+  
 </div>
 
 ---
@@ -12,12 +14,18 @@ Here’s the revised README for **CitySeeker** based on your provided content:
 - **CitySeeker pioneers the first language-guided embodied urban navigation** with implicit requests in multi-city settings, incorporating real-world visual diversity, long-horizon planning, and unstructured instructions.  
 - **VLM-based cognitive mapping framework** that translates implicit requests into multi-step plans through iterative observation-reasoning cycles.  
 - **Extensive exploratory experiments** identifying key bottlenecks in VLMs’ spatial reasoning and providing actionable insights for spatial intelligence.  
-
+<p align="center">
+<img src="assets/1.png" width="95%"/>
+</p>
 ---
 
 ## 📊 Dataset Overview  
 
-**CitySeeker** is the first benchmark for **implicit request-based navigation** in dynamic urban environments, covering **8 cities** with **41,128 nodes** and **6,440 instructions**.  
+**CitySeeker** is the first benchmark for **implicit request-based navigation** in dynamic urban environments, covering **8 city areas** with **41,128 nodes** and **6,440 instructions**.  
+
+<p align="center">
+<img src="assets/3.png" width="95%"/>
+</p>
 
 | **Dataset**   | **Instruction Type** | **#Instructions** | **Environment**       | **Source**               | **#City** | **#Nodes** | **Avg.Length** | **Avg.Token** |  
 |---------------|----------------------|-------------------|-----------------------|--------------------------|-----------|------------|----------------|---------------|  
@@ -40,7 +48,7 @@ Here’s the revised README for **CitySeeker** based on your provided content:
 | **Gemini-1.5-pro** | 1.91%    | 15.43%   | 7.48%    | 157.14   | 241.86   |  
 | **InternVL2.5-38B**| 2.23%    | 18.14%   | 7.16%    | 136.55   | 169.18   |  
 
-*(Full results in table below)*  
+*(Full results in paper)*  
 
 ---
 
