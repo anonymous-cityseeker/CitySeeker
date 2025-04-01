@@ -4,7 +4,7 @@
   
 </div>
 
----
+
 
 ## ✨ Highlights  
 - **CitySeeker pioneers the first language-guided embodied urban navigation** with implicit requests in multi-city settings, incorporating real-world visual diversity, long-horizon planning, and unstructured instructions.  
