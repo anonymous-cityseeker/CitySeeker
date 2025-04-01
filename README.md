@@ -12,7 +12,7 @@
 - **Extensive exploratory experiments** identifying key bottlenecks in VLMs’ spatial reasoning and providing actionable insights for spatial intelligence.  
 <p align="center">
 <img src="assets/1.png" width="50%"/>
-The CitySeeker Implicit-Requested Emobodied Urban Navigation Framework.
+<h2> The CitySeeker Implicit-Requested Emobodied Urban Navigation Framework.<h2>
 </p>
 
 
