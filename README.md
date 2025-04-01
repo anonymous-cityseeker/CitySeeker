@@ -1,16 +1,19 @@
 <div align="center">
   <h1>CitySeeker: A VLM Benchmark for Implicit Requests in Embodied Urban Navigation</h1>
 <img src="assets/4.png" width="93%"/>  
+  
 </div>
+
+
 
 ## ✨ Highlights  
 - **CitySeeker pioneers the first language-guided embodied urban navigation** with implicit requests in multi-city settings, incorporating real-world visual diversity, long-horizon planning, and unstructured instructions.  
 - **VLM-based cognitive mapping framework** that translates implicit requests into multi-step plans through iterative observation-reasoning cycles.  
-- **Extensive exploratory experiments** identifying key bottlenecks in VLMs' spatial reasoning and providing actionable insights for spatial intelligence.  
-
+- **Extensive exploratory experiments** identifying key bottlenecks in VLMs’ spatial reasoning and providing actionable insights for spatial intelligence.  
 <p align="center">
 <img src="assets/1.png" width="50%"/>
 </p>
+
 
 ## 📊 Dataset Overview  
 
@@ -39,6 +42,8 @@
 | **6. Inclusive Infrastructure Navigation** | Prioritize accessible infrastructure        | "Please find the nearest bank with an accessible entrance."                |
 | **7. Semantic Preference Navigation** | Use descriptive language for subjective criteria | "Please find the nearest romantic restaurant."                             |
 
+---
+
 ## 🏆 Benchmark Results  
 
 **Key Metrics**:  
@@ -53,39 +58,45 @@
 
 *(Full results in paper)*  
 
+---
+
 ## 🔍 Key Innovations  
 
 ### 🔄 **Backtracking Mechanisms**  
 Three strategies to mitigate error accumulation in long trajectories:  
-1. **Basic Backtracking (B1)**: Reverts to last "trusted" node when confidence drops below threshold.  
-2. **Step-Reward Backtracking (B2)**: Uses topological distance to evaluate progress.  
-3. **Human-Guided Backtracking (B3)**: Integrates corrective hints for optimal path alignment.  
-
+1. **Basic Backtracking (B1)**: In this basic backtracking strategy, the agent reverts to the last "trusted" node when its internal confidence falls below a predefined threshold.  
+2. **Step-Reward Backtracking (B2)**: This mechanism evaluates progress toward the goal by replacing subjective confidence scores with objective topological distance as the backtracking criterion.  
+3. **Human-Guided Backtracking (B3)**: This strategy extends basic backtracking B1 with corrective guidance, providing minimal external "hint" that suggests the best action to take next after backtracking.  
 <p align="center">
 <img src="assets/b1.png" width="95%"/>
 </p>
 
-### 🗺️ **Enriching Spatial Cognition**  
-- **Topology Cognitive Graph (C1)**: Explicit connectivity for structured navigation.  
-- **Relative Position Maps (C2)**: Intuitive directional cues for flexible navigation.  
 
+### 🗺️ **Enriching Spatial Cognition**  
+- **Topology Cognitive Graph (C1)**: In this approach, the VLM is provided with a topological graph of recently traversed segments, which explicitly defines the connectivity between various locations.
+- **Relative Position Maps (C2)**: In contrast, this approach emphasizes the spatial orientation of locations without directly specifying connectivity. 
 <p align="center">
 <img src="assets/c1.png" width="95%"/>
 </p>
 
-### 🧠 **Memory-Based Retrieval**  
-1. **Topology-based (R1)**: Prioritizes frequently successful paths.  
-2. **Spatial-based (R2)**: Retrieves nodes within 100m radius.  
-3. **Historical Trajectory Lookup (R3)**: Short-term memory for consistency.  
 
+### 🧠 **Memory-Based Retrieval**  
+1. **Topology-based (R1)**
+2. **Spatial-based (R2)**
+3. **Historical Trajectory Lookup (R3)**
+Each component supports different aspects of memory retrieval across multiple reasoning iterations, mitigating error propagation during navigation tasks.
 <p align="center">
 <img src="assets/r1.png" width="95%"/>
 </p>
 
-## 📥 Data & Usage  
 
+## 📥 Data & Usage  
 ### Human Evaluation
 We welcome community participation in human testing! Evaluation code and interfaces are available in the `website/` folder.
+<p align="center">
+<img src="assets/website.png" width="90%"/>
+</p>
+
 
 ### Dataset Access
 - **Raw image & topological data**: [Baidu Netdisk](https://pan.baidu.com/s/1HS3HL-uSUdxb69rmAOi0bw?pwd=2vjj)
@@ -94,6 +105,3 @@ We welcome community participation in human testing! Evaluation code and interfa
 ## 🌐 License  
 This project is open-sourced under **MIT License**.  
 *Data for research use only. Commercial use requires permission.*  
-
-
-
