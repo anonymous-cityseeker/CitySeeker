@@ -1,7 +1,3 @@
-Here’s the revised README for **CitySeeker** based on your provided content:
-
----
-
 <div align="center">
   <h1>CitySeeker: A VLM Benchmark for Implicit Requests in Embodied Urban Navigation</h1>
 <img src="assets/4.png" width="93%"/>  
@@ -15,7 +11,7 @@ Here’s the revised README for **CitySeeker** based on your provided content:
 - **VLM-based cognitive mapping framework** that translates implicit requests into multi-step plans through iterative observation-reasoning cycles.  
 - **Extensive exploratory experiments** identifying key bottlenecks in VLMs’ spatial reasoning and providing actionable insights for spatial intelligence.  
 <p align="center">
-<img src="assets/1.png" width="95%"/>
+<img src="assets/1.png" width="55%"/>
 </p>
 ---
 
@@ -24,7 +20,7 @@ Here’s the revised README for **CitySeeker** based on your provided content:
 **CitySeeker** is the first benchmark for **implicit request-based navigation** in dynamic urban environments, covering **8 city areas** with **41,128 nodes** and **6,440 instructions**.  
 
 <p align="center">
-<img src="assets/3.png" width="95%"/>
+<img src="assets/3.png" width="90%"/>
 </p>
 
 | **Dataset**   | **Instruction Type** | **#Instructions** | **Environment**       | **Source**               | **#City** | **#Nodes** | **Avg.Length** | **Avg.Token** |  
