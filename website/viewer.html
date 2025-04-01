@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>动态全景图展示</title>
+    <!-- 引入 Pannellum 的 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css"/>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            font-family: Arial, sans-serif;
+        }
+        #navigation {
+            position: absolute;
+            top: 70px;
+            left: 35px;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 10px;
+            border-radius: 5px;
+            z-index: 1000;
+            max-height: 200px;
+            overflow-y: auto;
+            font-size: 90%;
+        }
+        #navigation a {
+            display: block;
+            margin-bottom: 5px;
+            text-decoration: none;
+            color: #000;
+            cursor: pointer;
+        }
+        #panorama {
+            width: 100%;
+            height: calc(100% - 60px) !important;
+            margin-top: 60px !important;
+        }
+        #bottom-container {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.5);
+            padding: 11px;
+            box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            z-index: 1000;
+        }
+        #citySelect, #questionSelect {
+            padding: 8px;
+            border-radius: 4px;
+            border: 1px solid #666;
+            font-size: 14px;
+            background: rgba(255, 255, 255, 0.9);
+            color: #333;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            min-width: 120px;
+        }
+        #citySelect:hover, #questionSelect:hover {
+            border-color: #aaa;
+            background: #ffffff;
+        }
+        #citySelect:focus, #questionSelect:focus {
+            outline: none;
+            border-color: #ff69b4;
+            box-shadow: 0 0 10px rgba(255, 105, 180, 0.4);
+        }
+        .arrow-btn {
+            position: fixed;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 0;
+            padding: 0;
+            width: 56px;
+            height: 56px;
+            cursor: pointer;
+            background: rgba(245, 222, 179, 0.3);
+            border: none;
+            border-radius: 50%;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+        }
+        .arrow-btn img {
+            width: 50px;
+            height: 50px;
+            display: block;
+        }
+        .arrow-btn:hover {
+            transform: translateY(-50%) scale(1.1);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+            background: rgba(245, 222, 179, 0.25);
+        }
+        #prevBtn {
+            left: 20px;
+        }
+        #nextBtn {
+            right: 20px;
+        }
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: linear-gradient(to right, #000000, #434343);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+            padding: 12px 0;
+            text-align: center;
+            z-index: 1001;
+            opacity: 0.95;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 30px;
+            font-family: "Helvetica Neue", "Arial", sans-serif;
+            font-weight: 300;
+            letter-spacing: 2px;
+            color: #ffffff;
+            text-transform: uppercase;
+            text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+        .header h1 img {
+            width: 35px;
+            height: 35px;
+            margin: 0;
+            padding: 0;
+            display: block;
+            object-fit: contain;
+            vertical-align: middle;
+            filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
+        }
+        .pnlm-hotspot.pnlm-scene {
+            width: 39px !important;
+            height: 39px !important;
+            background-size: 39px 312px !important;
+            background-position: 0 -195px !important;
+            background-repeat: no-repeat !important;
+            border-radius: 19.5px !important;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>
+            <img src="/static/street.png" alt="Logo">
+            CitySeeker
+        </h1>
+    </div>
+    <div id="navigation"></div>
+    <div id="panorama"></div>
+    <button class="arrow-btn" id="prevBtn">
+        <img src="/static/right-arrow.png" style="transform: scaleX(-1);" alt="Left Arrow">
+    </button>
+    <button class="arrow-btn" id="nextBtn">
+        <img src="/static/right-arrow.png" alt="Right Arrow">
+    </button>
+    <div id="bottom-container">
+        <select id="citySelect">
+            <option value="London_7">London</option>
+            <option value="BeiJing_1">Beijing</option>
+            <option value="ShangHai_2">Shanghai</option>
+            <option value="ShenZhen_3">Shenzhen</option>
+            <option value="ChengDu_4">Chengdu</option>
+            <option value="HongKong_5">Hong Kong1</option>
+            <option value="HongKong_6">Hong Kong2</option>
+            <option value="NewYork_8">New York</option>
+        </select>
+        <select id="questionSelect">
+            <!-- 动态插入问题 -->
+        </select>
+    </div>
+
+    <!-- 引入 Pannellum 的 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>
+    <script>
+        // 全景图连接关系
+        let connections = [];
+
+        // 当前城市
+        let currentCity = 'London_7';
+
+        // 问题相关
+        let questions = [];
+        let currentQuestionIndex = 0;
+        let currentImageIndex = 0;
+
+        // 记录当前问题内的点击次数(限制35)
+        let currentQuestionClickCount = 0;
+        const MAX_CLICKS = 35;
+
+        // Trace 相关
+        let currentStepIdx = 1;
+        let currentImageId = '';
+        let currentStepStartTime = new Date();
+
+        // Viewer
+        let viewer = null;
+
+        // 最近访问的图片 (最多5条)
+        let visitedImages = [];
+
+        // 记录上一场景视角
+        let lastYaw = 0;
+        let lastPitch = 0;
+        let lastHeading = 0;
+
+        // 从 URL 获取参数
+        function getQueryParam(param) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(param);
+        }
+        function updateURLParam(param, value) {
+            const url = new URL(window.location);
+            url.searchParams.set(param, value);
+            window.history.pushState({}, '', url);
+        }
+
+        // 保存当前视角
+        function saveCurrentViewState() {
+            if (viewer) {
+                lastYaw = viewer.getYaw();
+                lastPitch = viewer.getPitch();
+            }
+        }
+
+        // ========== 加载 Connections & Questions ==========
+        function loadConnections(city) {
+            fetch(`/${city}/connections.json`)
+                .then(r => r.json())
+                .then(data => {
+                    connections = data || [];
+                    console.log('✅ 成功加载 connections.json:', connections);
+                })
+                .catch(e => console.error('❌ 加载 connections.json 失败:', e));
+        }
+
+        function loadQuestions() {
+            fetch(`/${currentCity}/question.json`)
+                .then(r => r.json())
+                .then(data => {
+                    questions = data;
+                    updateQuestionSelect();
+
+                    if (questions.length > 0) {
+                        currentQuestionIndex = 0;
+                        currentImageIndex = 0;
+                        currentQuestionClickCount = 0; // 重置点击数
+
+                        let initialImage = questions[0].from;
+                        const validConnection = connections.find(conn => conn.start_filename === initialImage);
+                        if (!validConnection) {
+                            console.warn(`初始图片 "${initialImage}" 在 connections.json 里找不到`);
+                            return;
+                        }
+                        currentImageId = initialImage;
+                        initializeViewer(initialImage, false); // 不继承方向
+                    }
+                })
+                .catch(e => console.error('加载问题数据失败:', e));
+        }
+
+        // ========== 更新问题下拉框 ==========
+        function updateQuestionSelect() {
+            const questionSelect = document.getElementById('questionSelect');
+            questionSelect.innerHTML = '<option value="">Please select a question</option>';
+
+            questions.forEach(question => {
+                const option = document.createElement('option');
+                option.value = `q${question.question_idx}`;
+                // 显示 “idx - content”
+                option.textContent = `${question.question_idx} - ${question.question}`;
+                questionSelect.appendChild(option);
+            });
+        }
+
+        // ========== 下拉框切换问题 ==========
+        function onQuestionSelectChange() {
+            const questionSelect = document.getElementById('questionSelect');
+            const idx = questionSelect.selectedIndex - 1; // 第一个option是“请选择问题”
+            if (idx < 0 || idx >= questions.length) return;
+
+            // 切换到新问题 => 重置点击次数
+            currentQuestionIndex = idx;
+            currentQuestionClickCount = 0;
+            currentStepIdx = 1;
+
+            const q = questions[currentQuestionIndex];
+            currentImageIndex = 0;
+            const newImage = q.from || '';
+
+            logQuestionChange(currentImageId, newImage);
+            saveCurrentViewState();
+            currentImageId = newImage;
+
+            // ★ 不要继承上一题的方向 => keepOrientation = false
+            initializeViewer(newImage, false);
+        }
+
+        // ========== 城市下拉框切换 ==========
+        function handleCityChange(e) {
+            const selectedCity = e.target.value;
+            if (selectedCity === currentCity) return;
+
+            currentCity = selectedCity;
+            updateURLParam('city', currentCity);
+
+            visitedImages = [];
+            currentQuestionIndex = 0;
+            currentImageIndex = 0;
+            currentQuestionClickCount = 0;
+
+            loadConnections(currentCity);
+            loadQuestions();
+        }
+
+        // ========== 箭头按钮：切换问题 ==========
+        function switchQuestion(direction) {
+            if (!questions.length) return;
+
+            // 切到新问题 => 不延续上一题方向
+            if (direction === 'next') {
+                currentQuestionIndex = (currentQuestionIndex + 1) % questions.length;
+            } else {
+                currentQuestionIndex = (currentQuestionIndex - 1 + questions.length) % questions.length;
+            }
+
+            currentQuestionClickCount = 0; // 重置点击数
+            currentStepIdx = 1;
+            currentImageIndex = 0;
+
+            const newQ = questions[currentQuestionIndex];
+            const newImg = newQ.from || '';
+
+            logQuestionChange(currentImageId, newImg);
+            saveCurrentViewState();
+            currentImageId = newImg;
+
+            // 同样不继承方向
+            initializeViewer(newImg, false);
+
+            // 更新下拉
+            const questionSelect = document.getElementById('questionSelect');
+            questionSelect.value = `q${newQ.question_idx}`;
+        }
+
+        // ========== 记录问题切换 ==========
+        function logQuestionChange(fromImageId, toImageId) {
+            const timestamp = new Date().toISOString();
+            const stayDuration = new Date() - currentStepStartTime;
+
+            const traceEntry = {
+                question_idx: questions[currentQuestionIndex].question_idx,
+                timesteps: [{
+                    step_idx: currentStepIdx,
+                    start_image_id: fromImageId,
+                    clicked_image_id: toImageId,
+                    stay_duration: stayDuration,
+                    timestamp
+                }]
+            };
+
+            //fetch('/trace', {
+            fetch(`/${currentCity}/trace`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(traceEntry)
+            })
+            .then(response => {
+                if (!response.ok) throw new Error('网络响应不正常');
+                console.log('问题切换记录已发送到服务器');
+            })
+            .catch(error => console.error('发送问题切换记录失败:', error));
+
+            currentStepStartTime = new Date();
+        }
+
+        // ========== 记录用户交互（示例，非必须） ==========
+        // 记录用户交互并发送到服务器
+        function logInteraction(currentScene, targetScene) {
+            const timestamp = new Date().toISOString().slice(0, 19).replace('T', ' '); // 格式化时间戳为 YYYY-MM-DD HH:mm:ss
+            const logEntry = { timestamp, from: currentScene, to: targetScene };
+
+            // 保存到 LocalStorage
+            interactionLog.push(logEntry);
+            localStorage.setItem('interactionLog', JSON.stringify(interactionLog));
+
+            // 发送到服务器
+            // fetch('/log', { // 使用相对路径，假设前端和后端在同一域名下
+            fetch(`/${currentCity}/log`, { // 使用动态城市信息    
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(logEntry)
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('网络响应不正常');
+                }
+                console.log(`Interaction Logged to Server: ${currentScene} -> ${targetScene} at ${timestamp}`);
+            })
+            .catch(error => {
+                console.error('Error logging interaction to server:', error);
+            });
+
+            // 记录到控制台
+            console.error('Error logging interaction to server:', error);
+        }     
+
+        // ========== 更新左上角访问历史 ==========
+        function updateVisitedImagesUI() {
+            const navDiv = document.getElementById('navigation');
+            navDiv.innerHTML = '';
+            visitedImages.forEach(img => {
+                const p = document.createElement('p');
+                p.textContent = img;
+                navDiv.appendChild(p);
+            });
+        }
+
+        // 城市分类
+        const cityCategories = {
+            baidu: ['BeiJing_1', 'ShangHai_2', 'ShenZhen_3', 'ChengDu_4'],  // 中国内陆城市
+            google: ['London_7', 'HongKong_5', 'HongKong_6', 'NewYork_8']   // 国外和香港
+        };
+
+        // 获取城市类型
+        function getCityCategory(city) {
+            if (cityCategories.baidu.includes(city)) {
+                return 'baidu';
+            }
+            if (cityCategories.google.includes(city)) {
+                return 'google';
+            }
+            return null;  // 如果没有匹配的城市，返回 null
+        }
+
+        // 修改 yaw 计算
+        function azimuthToYaw(edgeAzimuth, sceneHeading) {
+            const cityCategory = getCityCategory(currentCity);  // 获取当前城市类型
+
+            let yaw = edgeAzimuth - sceneHeading;
+            
+            // 根据城市类型调整 yaw
+            if (cityCategory === 'baidu') {
+                yaw += 90;  // baidu 类型城市需要减去 90
+            }
+            // 如果是 google 类型的城市，不做处理，保持原值
+
+            // 确保结果在 0 到 360 度之间
+            yaw = (yaw + 360) % 360;
+
+            return yaw;
+        }
+
+
+        // // ========== 计算 yaw ==========
+        // function azimuthToYaw(edgeAzimuth, sceneHeading) {
+        //     let yaw = edgeAzimuth - sceneHeading;
+        //     yaw = (yaw + 360) % 360;
+        //     return yaw;
+        // }
+
+        // ========== 核心：初始化 / 切换全景场景 ==========
+        function initializeViewer(sceneFilename, keepOrientation = false) {
+            if (!sceneFilename) {
+                console.warn('initializeViewer 调用时没有 sceneFilename');
+                return;
+            }
+            // 销毁旧 viewer
+            if (viewer) {
+                viewer.destroy();
+                viewer = null;
+            }
+
+            console.log('【initializeViewer】加载场景：', sceneFilename);
+            const currentConnections = connections.filter(c => c.start_filename === sceneFilename);
+            if (!currentConnections.length) {
+                console.warn('在 connections.json 中找不到 start_filename =', sceneFilename);
+                return;
+            }
+
+            const sceneData = currentConnections[0];
+            const newSceneHeading = sceneData.start_heading || 0;
+
+            let initialYaw = 0;
+            let initialPitch = 0;
+
+            // 仅当同一问题内跳转 (hotSpot) 时，keepOrientation 才为true
+            if (keepOrientation) {
+                // oldWorldYaw = lastHeading + lastYaw
+                const oldWorldYaw = lastHeading + lastYaw;
+                // newYaw = oldWorldYaw - newSceneHeading
+                initialYaw = oldWorldYaw - newSceneHeading;
+                initialPitch = lastPitch;
+            }
+            
+            // 创建 Viewer
+            viewer = pannellum.viewer('panorama', {
+                type: 'equirectangular',
+                panorama: `/${currentCity}/${sceneFilename}`,
+                autoLoad: true,
+                northOffset: newSceneHeading,
+                yaw: initialYaw,
+                pitch: initialPitch,
+                hotSpots: currentConnections.map(conn => {
+                    const yawVal = azimuthToYaw(conn.edge_azimuth, newSceneHeading);
+                    let pitchVal = 0;
+                    if (conn.edge_distance && conn.edge_distance > 0) {
+                        pitchVal = -Math.atan(1.6 / conn.edge_distance) * (180 / Math.PI);
+                    }
+                    return {
+                        pitch: pitchVal,
+                        yaw: yawVal,
+                        type: 'scene',
+                        sceneId: conn.end_filename,
+                        text: conn.description || `前往 ${conn.end_filename}`,
+                        clickHandlerFunc: () => {
+                            // 点热点 => 说明还在“同一个问题”内
+                            // => 计数 +1
+                            currentQuestionClickCount++;
+                            saveCurrentViewState();
+
+                            // 如果超过限制 => 强制切到下一题(不延续方向)
+                            if (currentQuestionClickCount >= MAX_CLICKS) {
+                                alert(`当前问题已点击 ${MAX_CLICKS} 次，自动切到下一问题`);
+                                currentQuestionClickCount = 0;
+                                currentStepIdx = 1;
+
+                                // 切到下一个问题
+                                currentQuestionIndex = (currentQuestionIndex + 1) % questions.length;
+                                currentImageIndex = 0;
+                                const forcedQ = questions[currentQuestionIndex];
+                                const forcedImg = forcedQ.from;
+                                logQuestionChange(currentImageId, forcedImg);
+                                saveCurrentViewState();
+                                currentImageId = forcedImg;
+
+                                // 下拉框也更新
+                                const questionSelect = document.getElementById('questionSelect');
+                                questionSelect.value = `q${forcedQ.question_idx}`;
+
+                                // ★ 不延续上一题的方向
+                                initializeViewer(forcedImg, false);
+                                return;
+                            }
+
+                            // 否则正常记录 trace
+                            logQuestionChange(currentImageId, conn.end_filename);
+                            currentImageId = conn.end_filename;
+
+                            // 同一问题内 => keepOrientation = true
+                            initializeViewer(conn.end_filename, true);
+                        }
+                    };
+                })
+            });
+
+            // 监听视角变化
+            viewer.on('viewchange', () => {
+                lastYaw = viewer.getYaw();
+                lastPitch = viewer.getPitch();
+            });
+            // 加载完成后更新 heading
+            viewer.on('load', () => {
+                lastHeading = newSceneHeading;
+            });
+
+            // 更新 URL
+            updateURLParam('scene', sceneFilename);
+            currentImageId = sceneFilename;
+
+            // 更新访问历史
+            if (!visitedImages.length || visitedImages[visitedImages.length - 1] !== sceneFilename) {
+                visitedImages.push(sceneFilename);
+                if (visitedImages.length > 5) {
+                    visitedImages.shift();
+                }
+            }
+            updateVisitedImagesUI();
+        }
+
+        // ========== 页面加载 ==========
+        window.onload = () => {
+            // 如果链接里带 city
+            const urlCity = getQueryParam('city');
+            const validCities = ['BeiJing_1','ShangHai_2','ShenZhen_3','ChengDu_4','HongKong_5','HongKong_6','NewYork_8','London_7'];
+            if (urlCity && validCities.includes(urlCity)) {
+                currentCity = urlCity;
+            }
+            document.getElementById('citySelect').value = currentCity;
+            document.getElementById('citySelect').addEventListener('change', handleCityChange);
+
+            loadConnections(currentCity);
+            loadQuestions();
+
+            // 问题下拉
+            document.getElementById('questionSelect')
+                .addEventListener('change', onQuestionSelectChange);
+
+            // 箭头按钮 => 切换问题
+            document.getElementById('prevBtn').addEventListener('click', () => {
+                switchQuestion('prev');
+            });
+            document.getElementById('nextBtn').addEventListener('click', () => {
+                switchQuestion('next');
+            });
+        };
+    </script>
+</body>
+</html>
