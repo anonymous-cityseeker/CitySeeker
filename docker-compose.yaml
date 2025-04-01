@@ -1,0 +1,35 @@
+services:
+  vllm:
+    container_name: vllm-citywalker
+    restart: no
+    image: vllm/vllm-openai:latest
+    ipc: host
+    volumes:
+      - ${LLM_DIR}:/models
+    command: [ "--model", "/models/${MODEL_NAME}",  "--served-model-name", "chatgpt-4o",  "--gpu-memory-utilization", "0.98", "--max-model-len", "10000" , "--trust_remote_code", "--limit-mm-per-prompt", " image=6"]
+    ports:
+      - 8000:8000
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [ gpu ]
+        limits:
+          cpus: '1.0'
+          memory: '32G'
+
+  neo4j:
+    container_name: neo4j
+    restart: no
+    image: abovzv0427/neo4j-spatial:5.13.0
+    ports:
+      - 7473:7473
+      - 7474:7474
+      - 7687:7687
+      - 8756:8756
+    volumes:
+      - ${NEO4J_VOLUME}:/bitnami
+    environment:
+      NEO4J_DATABASE: beijing1

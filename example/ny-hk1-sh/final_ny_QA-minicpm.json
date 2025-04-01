@@ -1,0 +1,4362 @@
+[
+    {
+        "folder": "subway station",
+        "question_idx": 43,
+        "question": "Please find the nearest subway station.",
+        "idx": 16,
+        "from": "00001658.jpg",
+        "to": "00001483.jpg",
+        "total_weight": 111.77816627786643,
+        "total_steps": 10,
+        "complete_route": [
+            {
+                "filename": "00001658.jpg",
+                "latitude": 40.7403259,
+                "longitude": -73.98951244
+            },
+            {
+                "filename": "00001657.jpg",
+                "latitude": 40.74036462,
+                "longitude": -73.98952114
+            },
+            {
+                "filename": "00001656.jpg",
+                "latitude": 40.7404559,
+                "longitude": -73.98949743
+            },
+            {
+                "filename": "00001655.jpg",
+                "latitude": 40.74054718,
+                "longitude": -73.98947372
+            },
+            {
+                "filename": "00001488.jpg",
+                "latitude": 40.74063847,
+                "longitude": -73.98945001
+            },
+            {
+                "filename": "00001487.jpg",
+                "latitude": 40.74073447,
+                "longitude": -73.9894195
+            },
+            {
+                "filename": "00001486.jpg",
+                "latitude": 40.74083047,
+                "longitude": -73.98938899
+            },
+            {
+                "filename": "00001485.jpg",
+                "latitude": 40.74088673,
+                "longitude": -73.98933407
+            },
+            {
+                "filename": "00001484.jpg",
+                "latitude": 40.74095713,
+                "longitude": -73.98927821
+            },
+            {
+                "filename": "00001483.jpg",
+                "latitude": 40.74104738,
+                "longitude": -73.98924966
+            }
+        ],
+        "difficulty": "easy",
+        "category": "question5",
+        "city": "newyork8"
+    },
+    {
+        "folder": "subway station",
+        "question_idx": 44,
+        "question": "Please find the nearest subway station.",
+        "idx": 20,
+        "from": "00000131.jpg",
+        "to": "00000007.jpg",
+        "total_weight": 110.37637195047658,
+        "total_steps": 7,
+        "complete_route": [
+            {
+                "filename": "00000131.jpg",
+                "latitude": 40.74687821,
+                "longitude": -73.99250245
+            },
+            {
+                "filename": "00000130.jpg",
+                "latitude": 40.74693945,
+                "longitude": -73.99264658
+            },
+            {
+                "filename": "00000129.jpg",
+                "latitude": 40.74700069,
+                "longitude": -73.99279072
+            },
+            {
+                "filename": "00000128.jpg",
+                "latitude": 40.74706193,
+                "longitude": -73.99293485
+            },
+            {
+                "filename": "00000127.jpg",
+                "latitude": 40.74712317,
+                "longitude": -73.99307899
+            },
+            {
+                "filename": "00000126.jpg",
+                "latitude": 40.74718441,
+                "longitude": -73.99322312
+            },
+            {
+                "filename": "00000007.jpg",
+                "latitude": 40.74724565,
+                "longitude": -73.99336726
+            }
+        ],
+        "difficulty": "easy",
+        "category": "question5",
+        "city": "newyork8"
+    },
+    {
+        "folder": "subway station",
+        "question_idx": 45,
+        "question": "Please find the nearest subway station.",
+        "idx": 30,
+        "from": "00001228.jpg",
+        "to": "00001410.jpg",
+        "total_weight": 131.72700779460504,
+        "total_steps": 12,
+        "complete_route": [
+            {
+                "filename": "00001228.jpg",
+                "latitude": 40.74214306,
+                "longitude": -73.98910443
+            },
+            {
+                "filename": "00001229.jpg",
+                "latitude": 40.74213551,
+                "longitude": -73.98907102
+            },
+            {
+                "filename": "00001230.jpg",
+                "latitude": 40.74213561,
+                "longitude": -73.98903043
+            },
+            {
+                "filename": "00001069.jpg",
+                "latitude": 40.74215077,
+                "longitude": -73.98896222
+            },
+            {
+                "filename": "00001234.jpg",
+                "latitude": 40.74202655,
+                "longitude": -73.98896515
+            },
+            {
+                "filename": "00001235.jpg",
+                "latitude": 40.74191089,
+                "longitude": -73.9889893
+            },
+            {
+                "filename": "00001236.jpg",
+                "latitude": 40.74179523,
+                "longitude": -73.98901345
+            },
+            {
+                "filename": "00001342.jpg",
+                "latitude": 40.74170287,
+                "longitude": -73.98903997
+            },
+            {
+                "filename": "00001343.jpg",
+                "latitude": 40.74161052,
+                "longitude": -73.98906649
+            },
+            {
+                "filename": "00001344.jpg",
+                "latitude": 40.74151816,
+                "longitude": -73.98909301
+            },
+            {
+                "filename": "00001417.jpg",
+                "latitude": 40.74145031,
+                "longitude": -73.98912389
+            },
+            {
+                "filename": "00001410.jpg",
+                "latitude": 40.74138246,
+                "longitude": -73.98915477
+            }
+        ],
+        "difficulty": "medium",
+        "category": "question5",
+        "city": "newyork8"
+    },
+    {
+        "folder": "subway station",
+        "question_idx": 46,
+        "question": "Please find the nearest subway station.",
+        "idx": 45,
+        "from": "00001364.jpg",
+        "to": "00001410.jpg",
+        "total_weight": 178.0710945884165,
+        "total_steps": 23,
+        "complete_route": [
+            {
+                "filename": "00001364.jpg",
+                "latitude": 40.74166475,
+                "longitude": -73.98791361
+            },
+            {
+                "filename": "00001363.jpg",
+                "latitude": 40.74168144,
+                "longitude": -73.98804114
+            },
+            {
+                "filename": "00001353.jpg",
+                "latitude": 40.74169813,
+                "longitude": -73.98816867
+            },
+            {
+                "filename": "00001360.jpg",
+                "latitude": 40.74167212,
+                "longitude": -73.98818774
+            },
+            {
+                "filename": "00001359.jpg",
+                "latitude": 40.74165539,
+                "longitude": -73.98821028
+            },
+            {
+                "filename": "00001358.jpg",
+                "latitude": 40.74163998,
+                "longitude": -73.98825015
+            },
+            {
+                "filename": "00001357.jpg",
+                "latitude": 40.74163637,
+                "longitude": -73.9882826
+            },
+            {
+                "filename": "00001356.jpg",
+                "latitude": 40.74163867,
+                "longitude": -73.98831571
+            },
+            {
+                "filename": "00001355.jpg",
+                "latitude": 40.74165007,
+                "longitude": -73.98835135
+            },
+            {
+                "filename": "00001354.jpg",
+                "latitude": 40.7416682,
+                "longitude": -73.9883803
+            },
+            {
+                "filename": "00001348.jpg",
+                "latitude": 40.74169555,
+                "longitude": -73.98840327
+            },
+            {
+                "filename": "00001361.jpg",
+                "latitude": 40.74164252,
+                "longitude": -73.98851438
+            },
+            {
+                "filename": "00001362.jpg",
+                "latitude": 40.74158949,
+                "longitude": -73.98862549
+            },
+            {
+                "filename": "00001341.jpg",
+                "latitude": 40.74153645,
+                "longitude": -73.98873659
+            },
+            {
+                "filename": "00001416.jpg",
+                "latitude": 40.74149329,
+                "longitude": -73.9887478
+            },
+            {
+                "filename": "00001415.jpg",
+                "latitude": 40.74147621,
+                "longitude": -73.98875993
+            },
+            {
+                "filename": "00001414.jpg",
+                "latitude": 40.74145251,
+                "longitude": -73.98879907
+            },
+            {
+                "filename": "00001413.jpg",
+                "latitude": 40.74144046,
+                "longitude": -73.98885804
+            },
+            {
+                "filename": "00001412.jpg",
+                "latitude": 40.74144344,
+                "longitude": -73.98891629
+            },
+            {
+                "filename": "00001411.jpg",
+                "latitude": 40.74145574,
+                "longitude": -73.98896448
+            },
+            {
+                "filename": "00001344.jpg",
+                "latitude": 40.74151816,
+                "longitude": -73.98909301
+            },
+            {
+                "filename": "00001417.jpg",
+                "latitude": 40.74145031,
+                "longitude": -73.98912389
+            },
+            {
+                "filename": "00001410.jpg",
+                "latitude": 40.74138246,
+                "longitude": -73.98915477
+            }
+        ],
+        "difficulty": "hard",
+        "category": "question5",
+        "city": "newyork8"
+    },
+    {
+        "folder": "bus station",
+        "question_idx": 47,
+        "question": "Please find the nearest bus station.",
+        "idx": 21,
+        "from": "00000025.jpg",
+        "to": "00000119.jpg",
+        "total_weight": 136.68423443076804,
+        "total_steps": 9,
+        "complete_route": [
+            {
+                "filename": "00000025.jpg",
+                "latitude": 40.74739531,
+                "longitude": -73.98988666
+            },
+            {
+                "filename": "00000026.jpg",
+                "latitude": 40.74733956,
+                "longitude": -73.98975411
+            },
+            {
+                "filename": "00000027.jpg",
+                "latitude": 40.74728381,
+                "longitude": -73.98962156
+            },
+            {
+                "filename": "00000114.jpg",
+                "latitude": 40.74718149,
+                "longitude": -73.98969577
+            },
+            {
+                "filename": "00000115.jpg",
+                "latitude": 40.74707917,
+                "longitude": -73.98976998
+            },
+            {
+                "filename": "00000116.jpg",
+                "latitude": 40.74697685,
+                "longitude": -73.9898442
+            },
+            {
+                "filename": "00000117.jpg",
+                "latitude": 40.74687452,
+                "longitude": -73.98991841
+            },
+            {
+                "filename": "00000118.jpg",
+                "latitude": 40.7467722,
+                "longitude": -73.98999262
+            },
+            {
+                "filename": "00000119.jpg",
+                "latitude": 40.74666988,
+                "longitude": -73.99006684
+            }
+        ],
+        "difficulty": "easy",
+        "category": "question5",
+        "city": "newyork8"
+    },
+    {
+        "folder": "bus station",
+        "question_idx": 48,
+        "question": "Please find the nearest bus station.",
+        "idx": 18,
+        "from": "00004073.jpg",
+        "to": "00004122.jpg",
+        "total_weight": 125.75404539116761,
+        "total_steps": 8,
+        "complete_route": [
+            {
+                "filename": "00004073.jpg",
+                "latitude": 40.72940926,
+                "longitude": -73.99455643
+            },
+            {
+                "filename": "00004153.jpg",
+                "latitude": 40.72934475,
+                "longitude": -73.99442273
+            },
+            {
+                "filename": "00004154.jpg",
+                "latitude": 40.72928023,
+                "longitude": -73.99428903
+            },
+            {
+                "filename": "00004155.jpg",
+                "latitude": 40.72921571,
+                "longitude": -73.99415533
+            },
+            {
+                "filename": "00004156.jpg",
+                "latitude": 40.7291512,
+                "longitude": -73.99402163
+            },
+            {
+                "filename": "00004157.jpg",
+                "latitude": 40.72908668,
+                "longitude": -73.99388793
+            },
+            {
+                "filename": "00004123.jpg",
+                "latitude": 40.72902217,
+                "longitude": -73.99375423
+            },
+            {
+                "filename": "00004122.jpg",
+                "latitude": 40.72913592,
+                "longitude": -73.99365737
+            }
+        ],
+        "difficulty": "easy",
+        "category": "question5",
+        "city": "newyork8"
+    },
+    {
+        "folder": "bus station",
+        "question_idx": 49,
+        "question": "Please find the nearest bus station.",
+        "idx": 9,
+        "from": "00003223.jpg",
+        "to": "00003028.jpg",
+        "total_weight": 261.69338797074795,
+        "total_steps": 16,
+        "complete_route": [
+            {
+                "filename": "00003223.jpg",
+                "latitude": 40.7331843,
+                "longitude": -73.98343128
+            },
+            {
+                "filename": "00003222.jpg",
+                "latitude": 40.73327361,
+                "longitude": -73.98336276
+            },
+            {
+                "filename": "00003221.jpg",
+                "latitude": 40.73336291,
+                "longitude": -73.98329423
+            },
+            {
+                "filename": "00003116.jpg",
+                "latitude": 40.73334617,
+                "longitude": -73.98318307
+            },
+            {
+                "filename": "00003115.jpg",
+                "latitude": 40.73346216,
+                "longitude": -73.98309767
+            },
+            {
+                "filename": "00003114.jpg",
+                "latitude": 40.73357816,
+                "longitude": -73.98301226
+            },
+            {
+                "filename": "00003113.jpg",
+                "latitude": 40.73369415,
+                "longitude": -73.98292685
+            },
+            {
+                "filename": "00003112.jpg",
+                "latitude": 40.73381014,
+                "longitude": -73.98284145
+            },
+            {
+                "filename": "00003027.jpg",
+                "latitude": 40.73392614,
+                "longitude": -73.98275604
+            },
+            {
+                "filename": "00003026.jpg",
+                "latitude": 40.73398267,
+                "longitude": -73.98289021
+            },
+            {
+                "filename": "00003025.jpg",
+                "latitude": 40.73403921,
+                "longitude": -73.98302438
+            },
+            {
+                "filename": "00003024.jpg",
+                "latitude": 40.73409575,
+                "longitude": -73.98315854
+            },
+            {
+                "filename": "00003023.jpg",
+                "latitude": 40.73415229,
+                "longitude": -73.98329271
+            },
+            {
+                "filename": "00003022.jpg",
+                "latitude": 40.73420883,
+                "longitude": -73.98342688
+            },
+            {
+                "filename": "00002878.jpg",
+                "latitude": 40.73426537,
+                "longitude": -73.98356105
+            },
+            {
+                "filename": "00003028.jpg",
+                "latitude": 40.73415449,
+                "longitude": -73.98364209
+            }
+        ],
+        "difficulty": "medium",
+        "category": "question5",
+        "city": "newyork8"
+    },
+    {
+        "folder": "restroom",
+        "question_idx": 50,
+        "question": "Please find the nearest restroom.",
+        "idx": 45,
+        "from": "00000340.jpg",
+        "to": "00000144.jpg",
+        "total_weight": 110.09984777641425,
+        "total_steps": 7,
+        "complete_route": [
+            {
+                "filename": "00000340.jpg",
+                "latitude": 40.74574025,
+                "longitude": -73.98978952
+            },
+            {
+                "filename": "00000339.jpg",
+                "latitude": 40.74580121,
+                "longitude": -73.98993582
+            },
+            {
+                "filename": "00000338.jpg",
+                "latitude": 40.74586216,
+                "longitude": -73.99008212
+            },
+            {
+                "filename": "00000337.jpg",
+                "latitude": 40.74592311,
+                "longitude": -73.99022841
+            },
+            {
+                "filename": "00000336.jpg",
+                "latitude": 40.74598407,
+                "longitude": -73.99037471
+            },
+            {
+                "filename": "00000145.jpg",
+                "latitude": 40.74604502,
+                "longitude": -73.99052101
+            },
+            {
+                "filename": "00000144.jpg",
+                "latitude": 40.74610284,
+                "longitude": -73.99065504
+            }
+        ],
+        "difficulty": "easy",
+        "category": "question6",
+        "city": "newyork8"
+    },
+    {
+        "folder": "restroom",
+        "question_idx": 51,
+        "question": "Please find the nearest restroom.",
+        "idx": 13,
+        "from": "00003814.jpg",
+        "to": "00003644.jpg",
+        "total_weight": 140.13387699146526,
+        "total_steps": 10,
+        "complete_route": [
+            {
+                "filename": "00003814.jpg",
+                "latitude": 40.73051628,
+                "longitude": -73.98273676
+            },
+            {
+                "filename": "00003813.jpg",
+                "latitude": 40.73055947,
+                "longitude": -73.9828239
+            },
+            {
+                "filename": "00003812.jpg",
+                "latitude": 40.73060266,
+                "longitude": -73.98291103
+            },
+            {
+                "filename": "00003811.jpg",
+                "latitude": 40.73063273,
+                "longitude": -73.98299402
+            },
+            {
+                "filename": "00003610.jpg",
+                "latitude": 40.73066279,
+                "longitude": -73.98307701
+            },
+            {
+                "filename": "00003648.jpg",
+                "latitude": 40.73077821,
+                "longitude": -73.98299428
+            },
+            {
+                "filename": "00003647.jpg",
+                "latitude": 40.73089362,
+                "longitude": -73.98291154
+            },
+            {
+                "filename": "00003646.jpg",
+                "latitude": 40.73100903,
+                "longitude": -73.9828288
+            },
+            {
+                "filename": "00003645.jpg",
+                "latitude": 40.73112445,
+                "longitude": -73.98274607
+            },
+            {
+                "filename": "00003644.jpg",
+                "latitude": 40.73123986,
+                "longitude": -73.98266333
+            }
+        ],
+        "difficulty": "easy",
+        "category": "question6",
+        "city": "newyork8"
+    },
+    {
+        "folder": "restroom",
+        "question_idx": 52,
+        "question": "Please find the nearest restroom.",
+        "idx": 42,
+        "from": "00000738.jpg",
+        "to": "00000888.jpg",
+        "total_weight": 279.0091309727895,
+        "total_steps": 16,
+        "complete_route": [
+            {
+                "filename": "00000738.jpg",
+                "latitude": 40.74387325,
+                "longitude": -73.99111568
+            },
+            {
+                "filename": "00000737.jpg",
+                "latitude": 40.74393707,
+                "longitude": -73.99126591
+            },
+            {
+                "filename": "00000736.jpg",
+                "latitude": 40.7440009,
+                "longitude": -73.99141614
+            },
+            {
+                "filename": "00000735.jpg",
+                "latitude": 40.74406472,
+                "longitude": -73.99156637
+            },
+            {
+                "filename": "00000734.jpg",
+                "latitude": 40.74412855,
+                "longitude": -73.9917166
+            },
+            {
+                "filename": "00000509.jpg",
+                "latitude": 40.74419238,
+                "longitude": -73.99186683
+            },
+            {
+                "filename": "00000752.jpg",
+                "latitude": 40.74409028,
+                "longitude": -73.99194228
+            },
+            {
+                "filename": "00000753.jpg",
+                "latitude": 40.74398818,
+                "longitude": -73.99201773
+            },
+            {
+                "filename": "00000754.jpg",
+                "latitude": 40.74388608,
+                "longitude": -73.99209318
+            },
+            {
+                "filename": "00000755.jpg",
+                "latitude": 40.74378398,
+                "longitude": -73.99216863
+            },
+            {
+                "filename": "00000756.jpg",
+                "latitude": 40.74368188,
+                "longitude": -73.99224408
+            },
+            {
+                "filename": "00000643.jpg",
+                "latitude": 40.74357978,
+                "longitude": -73.99231953
+            },
+            {
+                "filename": "00000885.jpg",
+                "latitude": 40.7434606,
+                "longitude": -73.99240626
+            },
+            {
+                "filename": "00000886.jpg",
+                "latitude": 40.74334142,
+                "longitude": -73.99249299
+            },
+            {
+                "filename": "00000887.jpg",
+                "latitude": 40.74322224,
+                "longitude": -73.99257972
+            },
+            {
+                "filename": "00000888.jpg",
+                "latitude": 40.74310306,
+                "longitude": -73.99266645
+            }
+        ],
+        "difficulty": "medium",
+        "category": "question6",
+        "city": "newyork8"
+    },
+    {
+        "folder": "restroom",
+        "question_idx": 53,
+        "question": "Please find the nearest restroom.",
+        "idx": 44,
+        "from": "00001242.jpg",
+        "to": "00001410.jpg",
+        "total_weight": 158.55043047425173,
+        "total_steps": 19,
+        "complete_route": [
+            {
+                "filename": "00001242.jpg",
+                "latitude": 40.74197483,
+                "longitude": -73.98842319
+            },
+            {
+                "filename": "00001243.jpg",
+                "latitude": 40.74188934,
+                "longitude": -73.98840746
+            },
+            {
+                "filename": "00001244.jpg",
+                "latitude": 40.74179972,
+                "longitude": -73.98837459
+            },
+            {
+                "filename": "00001345.jpg",
+                "latitude": 40.74177525,
+                "longitude": -73.98839734
+            },
+            {
+                "filename": "00001346.jpg",
+                "latitude": 40.74175116,
+                "longitude": -73.98840847
+            },
+            {
+                "filename": "00001347.jpg",
+                "latitude": 40.74172178,
+                "longitude": -73.98841072
+            },
+            {
+                "filename": "00001348.jpg",
+                "latitude": 40.74169555,
+                "longitude": -73.98840327
+            },
+            {
+                "filename": "00001361.jpg",
+                "latitude": 40.74164252,
+                "longitude": -73.98851438
+            },
+            {
+                "filename": "00001362.jpg",
+                "latitude": 40.74158949,
+                "longitude": -73.98862549
+            },
+            {
+                "filename": "00001341.jpg",
+                "latitude": 40.74153645,
+                "longitude": -73.98873659
+            },
+            {
+                "filename": "00001416.jpg",
+                "latitude": 40.74149329,
+                "longitude": -73.9887478
+            },
+            {
+                "filename": "00001415.jpg",
+                "latitude": 40.74147621,
+                "longitude": -73.98875993
+            },
+            {
+                "filename": "00001414.jpg",
+                "latitude": 40.74145251,
+                "longitude": -73.98879907
+            },
+            {
+                "filename": "00001413.jpg",
+                "latitude": 40.74144046,
+                "longitude": -73.98885804
+            },
+            {
+                "filename": "00001412.jpg",
+                "latitude": 40.74144344,
+                "longitude": -73.98891629
+            },
+            {
+                "filename": "00001411.jpg",
+                "latitude": 40.74145574,
+                "longitude": -73.98896448
+            },
+            {
+                "filename": "00001344.jpg",
+                "latitude": 40.74151816,
+                "longitude": -73.98909301
+            },
+            {
+                "filename": "00001417.jpg",
+                "latitude": 40.74145031,
+                "longitude": -73.98912389
+            },
+            {
+                "filename": "00001410.jpg",
+                "latitude": 40.74138246,
+                "longitude": -73.98915477
+            }
+        ],
+        "difficulty": "hard",
+        "category": "question6",
+        "city": "newyork8"
+    },
+    {
+        "folder": "gym",
+        "question_idx": 54,
+        "question": "Please find the nearest gym.",
+        "idx": 32,
+        "from": "00003810.jpg",
+        "to": "00004041.jpg",
+        "total_weight": 137.04206070178384,
+        "total_steps": 9,
+        "complete_route": [
+            {
+                "filename": "00003810.jpg",
+                "latitude": 40.73016666,
+                "longitude": -73.98953348
+            },
+            {
+                "filename": "00003941.jpg",
+                "latitude": 40.73006733,
+                "longitude": -73.98960551
+            },
+            {
+                "filename": "00003942.jpg",
+                "latitude": 40.729968,
+                "longitude": -73.98967753
+            },
+            {
+                "filename": "00003943.jpg",
+                "latitude": 40.72986868,
+                "longitude": -73.98974956
+            },
+            {
+                "filename": "00004064.jpg",
+                "latitude": 40.72977346,
+                "longitude": -73.98981869
+            },
+            {
+                "filename": "00004065.jpg",
+                "latitude": 40.72967825,
+                "longitude": -73.98988781
+            },
+            {
+                "filename": "00004043.jpg",
+                "latitude": 40.72958303,
+                "longitude": -73.98995694
+            },
+            {
+                "filename": "00004042.jpg",
+                "latitude": 40.72964297,
+                "longitude": -73.99011425
+            },
+            {
+                "filename": "00004041.jpg",
+                "latitude": 40.72970291,
+                "longitude": -73.99027157
+            }
+        ],
+        "difficulty": "easy",
+        "category": "question6",
+        "city": "newyork8"
+    },
+    {
+        "folder": "gym",
+        "question_idx": 55,
+        "question": "Please find the nearest gym.",
+        "idx": 16,
+        "from": "00001549.jpg",
+        "to": "00001399.jpg",
+        "total_weight": 137.5787333331719,
+        "total_steps": 9,
+        "complete_route": [
+            {
+                "filename": "00001549.jpg",
+                "latitude": 40.74045075,
+                "longitude": -73.99459617
+            },
+            {
+                "filename": "00001548.jpg",
+                "latitude": 40.74055837,
+                "longitude": -73.99451088
+            },
+            {
+                "filename": "00001547.jpg",
+                "latitude": 40.74065446,
+                "longitude": -73.99444179
+            },
+            {
+                "filename": "00001546.jpg",
+                "latitude": 40.74075055,
+                "longitude": -73.99437269
+            },
+            {
+                "filename": "00001545.jpg",
+                "latitude": 40.74084664,
+                "longitude": -73.99430359
+            },
+            {
+                "filename": "00001544.jpg",
+                "latitude": 40.74094273,
+                "longitude": -73.99423449
+            },
+            {
+                "filename": "00001391.jpg",
+                "latitude": 40.74103882,
+                "longitude": -73.9941654
+            },
+            {
+                "filename": "00001400.jpg",
+                "latitude": 40.74110288,
+                "longitude": -73.99431752
+            },
+            {
+                "filename": "00001399.jpg",
+                "latitude": 40.74116695,
+                "longitude": -73.99446965
+            }
+        ],
+        "difficulty": "easy",
+        "category": "question6",
+        "city": "newyork8"
+    },
+    {
+        "folder": "gym",
+        "question_idx": 56,
+        "question": "Please find the nearest gym.",
+        "idx": 5,
+        "from": "00000936.jpg",
+        "to": "00001121.jpg",
+        "total_weight": 218.11880364173166,
+        "total_steps": 13,
+        "complete_route": [
+            {
+                "filename": "00000936.jpg",
+                "latitude": 40.74304853,
+                "longitude": -73.98339717
+            },
+            {
+                "filename": "00000935.jpg",
+                "latitude": 40.7431146,
+                "longitude": -73.98355275
+            },
+            {
+                "filename": "00000934.jpg",
+                "latitude": 40.74318068,
+                "longitude": -73.98370834
+            },
+            {
+                "filename": "00000933.jpg",
+                "latitude": 40.74324675,
+                "longitude": -73.98386393
+            },
+            {
+                "filename": "00000823.jpg",
+                "latitude": 40.74331283,
+                "longitude": -73.98401952
+            },
+            {
+                "filename": "00000943.jpg",
+                "latitude": 40.74320866,
+                "longitude": -73.98409537
+            },
+            {
+                "filename": "00000944.jpg",
+                "latitude": 40.7431045,
+                "longitude": -73.98417122
+            },
+            {
+                "filename": "00000945.jpg",
+                "latitude": 40.74300034,
+                "longitude": -73.98424707
+            },
+            {
+                "filename": "00000946.jpg",
+                "latitude": 40.74289618,
+                "longitude": -73.98432293
+            },
+            {
+                "filename": "00000947.jpg",
+                "latitude": 40.74279201,
+                "longitude": -73.98439878
+            },
+            {
+                "filename": "00000948.jpg",
+                "latitude": 40.74268785,
+                "longitude": -73.98447463
+            },
+            {
+                "filename": "00001120.jpg",
+                "latitude": 40.74263266,
+                "longitude": -73.98434132
+            },
+            {
+                "filename": "00001121.jpg",
+                "latitude": 40.74257747,
+                "longitude": -73.98420801
+            }
+        ],
+        "difficulty": "medium",
+        "category": "question6",
+        "city": "newyork8"
+    },
+    {
+        "folder": "gym",
+        "question_idx": 57,
+        "question": "Please find the nearest gym.",
+        "idx": 1,
+        "from": "00000873.jpg",
+        "to": "00001035.jpg",
+        "total_weight": 379.0324738513288,
+        "total_steps": 21,
+        "complete_route": [
+            {
+                "filename": "00000873.jpg",
+                "latitude": 40.74286399,
+                "longitude": -73.99063536
+            },
+            {
+                "filename": "00000872.jpg",
+                "latitude": 40.74292803,
+                "longitude": -73.99078748
+            },
+            {
+                "filename": "00000871.jpg",
+                "latitude": 40.74299207,
+                "longitude": -73.9909396
+            },
+            {
+                "filename": "00000870.jpg",
+                "latitude": 40.74305611,
+                "longitude": -73.99109172
+            },
+            {
+                "filename": "00000869.jpg",
+                "latitude": 40.74312015,
+                "longitude": -73.99124384
+            },
+            {
+                "filename": "00000868.jpg",
+                "latitude": 40.74318419,
+                "longitude": -73.99139596
+            },
+            {
+                "filename": "00000867.jpg",
+                "latitude": 40.74324823,
+                "longitude": -73.99154808
+            },
+            {
+                "filename": "00000866.jpg",
+                "latitude": 40.74331454,
+                "longitude": -73.99170237
+            },
+            {
+                "filename": "00000865.jpg",
+                "latitude": 40.74338085,
+                "longitude": -73.99185666
+            },
+            {
+                "filename": "00000864.jpg",
+                "latitude": 40.74344716,
+                "longitude": -73.99201095
+            },
+            {
+                "filename": "00000863.jpg",
+                "latitude": 40.74351347,
+                "longitude": -73.99216524
+            },
+            {
+                "filename": "00000643.jpg",
+                "latitude": 40.74357978,
+                "longitude": -73.99231953
+            },
+            {
+                "filename": "00000885.jpg",
+                "latitude": 40.7434606,
+                "longitude": -73.99240626
+            },
+            {
+                "filename": "00000886.jpg",
+                "latitude": 40.74334142,
+                "longitude": -73.99249299
+            },
+            {
+                "filename": "00000887.jpg",
+                "latitude": 40.74322224,
+                "longitude": -73.99257972
+            },
+            {
+                "filename": "00000888.jpg",
+                "latitude": 40.74310306,
+                "longitude": -73.99266645
+            },
+            {
+                "filename": "00000889.jpg",
+                "latitude": 40.74300504,
+                "longitude": -73.99273291
+            },
+            {
+                "filename": "00000804.jpg",
+                "latitude": 40.74290701,
+                "longitude": -73.99279937
+            },
+            {
+                "filename": "00001033.jpg",
+                "latitude": 40.7428503,
+                "longitude": -73.99266387
+            },
+            {
+                "filename": "00001034.jpg",
+                "latitude": 40.74279358,
+                "longitude": -73.99252837
+            },
+            {
+                "filename": "00001035.jpg",
+                "latitude": 40.74273687,
+                "longitude": -73.99239287
+            }
+        ],
+        "difficulty": "hard",
+        "category": "question6",
+        "city": "newyork8"
+    },
+    {
+        "folder": "coffee shop",
+        "question_idx": 58,
+        "question": "Please find the nearest coffee shop.",
+        "idx": 3,
+        "from": "00001279.jpg",
+        "to": "00001286.jpg",
+        "total_weight": 170.41506938122598,
+        "total_steps": 10,
+        "complete_route": [
+            {
+                "filename": "00001279.jpg",
+                "latitude": 40.74168194,
+                "longitude": -73.98399144
+            },
+            {
+                "filename": "00001278.jpg",
+                "latitude": 40.74174703,
+                "longitude": -73.98414674
+            },
+            {
+                "filename": "00001277.jpg",
+                "latitude": 40.74181213,
+                "longitude": -73.98430204
+            },
+            {
+                "filename": "00001276.jpg",
+                "latitude": 40.74187722,
+                "longitude": -73.98445734
+            },
+            {
+                "filename": "00001275.jpg",
+                "latitude": 40.74194231,
+                "longitude": -73.98461264
+            },
+            {
+                "filename": "00001274.jpg",
+                "latitude": 40.74200741,
+                "longitude": -73.98476794
+            },
+            {
+                "filename": "00001119.jpg",
+                "latitude": 40.7420725,
+                "longitude": -73.98492324
+            },
+            {
+                "filename": "00001284.jpg",
+                "latitude": 40.7419692,
+                "longitude": -73.98499766
+            },
+            {
+                "filename": "00001285.jpg",
+                "latitude": 40.7418659,
+                "longitude": -73.98507209
+            },
+            {
+                "filename": "00001286.jpg",
+                "latitude": 40.74176261,
+                "longitude": -73.98514651
+            }
+        ],
+        "difficulty": "easy",
+        "category": "question6",
+        "city": "newyork8"
+    },
+    {
+        "folder": "coffee shop",
+        "question_idx": 59,
+        "question": "Please find the nearest coffee shop.",
+        "idx": 7,
+        "from": "00002722.jpg",
+        "to": "00002711.jpg",
+        "total_weight": 145.5233150757868,
+        "total_steps": 9,
+        "complete_route": [
+            {
+                "filename": "00002722.jpg",
+                "latitude": 40.73500709,
+                "longitude": -73.99436039
+            },
+            {
+                "filename": "00002721.jpg",
+                "latitude": 40.73511459,
+                "longitude": -73.99428256
+            },
+            {
+                "filename": "00002720.jpg",
+                "latitude": 40.73522209,
+                "longitude": -73.99420472
+            },
+            {
+                "filename": "00002532.jpg",
+                "latitude": 40.73532959,
+                "longitude": -73.99412688
+            },
+            {
+                "filename": "00002707.jpg",
+                "latitude": 40.73526921,
+                "longitude": -73.99398313
+            },
+            {
+                "filename": "00002708.jpg",
+                "latitude": 40.73520884,
+                "longitude": -73.99383937
+            },
+            {
+                "filename": "00002709.jpg",
+                "latitude": 40.73514846,
+                "longitude": -73.99369562
+            },
+            {
+                "filename": "00002710.jpg",
+                "latitude": 40.73508808,
+                "longitude": -73.99355186
+            },
+            {
+                "filename": "00002711.jpg",
+                "latitude": 40.73502771,
+                "longitude": -73.99340811
+            }
+        ],
+        "difficulty": "easy",
+        "category": "question6",
+        "city": "newyork8"
+    },
+    {
+        "folder": "coffee shop",
+        "question_idx": 60,
+        "question": "Please find the nearest coffee shop.",
+        "idx": 43,
+        "from": "00001859.jpg",
+        "to": "00001703.jpg",
+        "total_weight": 151.83927475307044,
+        "total_steps": 12,
+        "complete_route": [
+            {
+                "filename": "00001859.jpg",
+                "latitude": 40.73930727,
+                "longitude": -73.98632023
+            },
+            {
+                "filename": "00001858.jpg",
+                "latitude": 40.73937283,
+                "longitude": -73.98647511
+            },
+            {
+                "filename": "00001857.jpg",
+                "latitude": 40.73943838,
+                "longitude": -73.98662999
+            },
+            {
+                "filename": "00001839.jpg",
+                "latitude": 40.73950394,
+                "longitude": -73.98678487
+            },
+            {
+                "filename": "00001866.jpg",
+                "latitude": 40.7395053,
+                "longitude": -73.98678891
+            },
+            {
+                "filename": "00001833.jpg",
+                "latitude": 40.739507,
+                "longitude": -73.98678981
+            },
+            {
+                "filename": "00001654.jpg",
+                "latitude": 40.73955833,
+                "longitude": -73.98691295
+            },
+            {
+                "filename": "00001766.jpg",
+                "latitude": 40.73967304,
+                "longitude": -73.98682938
+            },
+            {
+                "filename": "00001765.jpg",
+                "latitude": 40.73978775,
+                "longitude": -73.98674581
+            },
+            {
+                "filename": "00001764.jpg",
+                "latitude": 40.73990246,
+                "longitude": -73.98666225
+            },
+            {
+                "filename": "00001704.jpg",
+                "latitude": 40.73990621,
+                "longitude": -73.98665955
+            },
+            {
+                "filename": "00001703.jpg",
+                "latitude": 40.74001219,
+                "longitude": -73.98658194
+            }
+        ],
+        "difficulty": "medium",
+        "category": "question6",
+        "city": "newyork8"
+    },
+    {
+        "folder": "parking lot",
+        "question_idx": 61,
+        "question": "Please find the nearest parking lot.",
+        "idx": 16,
+        "from": "00002667.jpg",
+        "to": "00002733.jpg",
+        "total_weight": 128.2961356350994,
+        "total_steps": 10,
+        "complete_route": [
+            {
+                "filename": "00002667.jpg",
+                "latitude": 40.73529785,
+                "longitude": -73.99049133
+            },
+            {
+                "filename": "00002666.jpg",
+                "latitude": 40.73535074,
+                "longitude": -73.9903991
+            },
+            {
+                "filename": "00002665.jpg",
+                "latitude": 40.7354158,
+                "longitude": -73.99033074
+            },
+            {
+                "filename": "00002524.jpg",
+                "latitude": 40.73548085,
+                "longitude": -73.99026239
+            },
+            {
+                "filename": "00002669.jpg",
+                "latitude": 40.73543959,
+                "longitude": -73.99015789
+            },
+            {
+                "filename": "00002573.jpg",
+                "latitude": 40.73539832,
+                "longitude": -73.99005339
+            },
+            {
+                "filename": "00002578.jpg",
+                "latitude": 40.73536478,
+                "longitude": -73.98997207
+            },
+            {
+                "filename": "00002584.jpg",
+                "latitude": 40.73532121,
+                "longitude": -73.98985568
+            },
+            {
+                "filename": "00002732.jpg",
+                "latitude": 40.73525534,
+                "longitude": -73.98969848
+            },
+            {
+                "filename": "00002733.jpg",
+                "latitude": 40.73518947,
+                "longitude": -73.98954128
+            }
+        ],
+        "difficulty": "easy",
+        "category": "question6",
+        "city": "newyork8"
+    },
+    {
+        "folder": "parking lot",
+        "question_idx": 62,
+        "question": "Please find the nearest parking lot.",
+        "idx": 23,
+        "from": "00000507.jpg",
+        "to": "00000643.jpg",
+        "total_weight": 141.3269690771405,
+        "total_steps": 9,
+        "complete_route": [
+            {
+                "filename": "00000507.jpg",
+                "latitude": 40.7443188,
+                "longitude": -73.99216638
+            },
+            {
+                "filename": "00000508.jpg",
+                "latitude": 40.74425559,
+                "longitude": -73.9920166
+            },
+            {
+                "filename": "00000509.jpg",
+                "latitude": 40.74419238,
+                "longitude": -73.99186683
+            },
+            {
+                "filename": "00000752.jpg",
+                "latitude": 40.74409028,
+                "longitude": -73.99194228
+            },
+            {
+                "filename": "00000753.jpg",
+                "latitude": 40.74398818,
+                "longitude": -73.99201773
+            },
+            {
+                "filename": "00000754.jpg",
+                "latitude": 40.74388608,
+                "longitude": -73.99209318
+            },
+            {
+                "filename": "00000755.jpg",
+                "latitude": 40.74378398,
+                "longitude": -73.99216863
+            },
+            {
+                "filename": "00000756.jpg",
+                "latitude": 40.74368188,
+                "longitude": -73.99224408
+            },
+            {
+                "filename": "00000643.jpg",
+                "latitude": 40.74357978,
+                "longitude": -73.99231953
+            }
+        ],
+        "difficulty": "easy",
+        "category": "question6",
+        "city": "newyork8"
+    },
+    {
+        "folder": "parking lot",
+        "question_idx": 63,
+        "question": "Please find the nearest parking lot.",
+        "idx": 9,
+        "from": "00000650.jpg",
+        "to": "00000360.jpg",
+        "total_weight": 260.6235926575913,
+        "total_steps": 16,
+        "complete_route": [
+            {
+                "filename": "00000650.jpg",
+                "latitude": 40.74448034,
+                "longitude": -73.98677047
+            },
+            {
+                "filename": "00000649.jpg",
+                "latitude": 40.74454568,
+                "longitude": -73.98692612
+            },
+            {
+                "filename": "00000648.jpg",
+                "latitude": 40.74459508,
+                "longitude": -73.98705135
+            },
+            {
+                "filename": "00000647.jpg",
+                "latitude": 40.74464448,
+                "longitude": -73.98717659
+            },
+            {
+                "filename": "00000541.jpg",
+                "latitude": 40.74469388,
+                "longitude": -73.98730182
+            },
+            {
+                "filename": "00000540.jpg",
+                "latitude": 40.7447714,
+                "longitude": -73.98724948
+            },
+            {
+                "filename": "00000539.jpg",
+                "latitude": 40.74484891,
+                "longitude": -73.98719714
+            },
+            {
+                "filename": "00000538.jpg",
+                "latitude": 40.74496527,
+                "longitude": -73.98711332
+            },
+            {
+                "filename": "00000537.jpg",
+                "latitude": 40.74508163,
+                "longitude": -73.9870295
+            },
+            {
+                "filename": "00000536.jpg",
+                "latitude": 40.74519799,
+                "longitude": -73.98694568
+            },
+            {
+                "filename": "00000365.jpg",
+                "latitude": 40.74531435,
+                "longitude": -73.98686187
+            },
+            {
+                "filename": "00000364.jpg",
+                "latitude": 40.74537457,
+                "longitude": -73.98701689
+            },
+            {
+                "filename": "00000363.jpg",
+                "latitude": 40.74543479,
+                "longitude": -73.98717191
+            },
+            {
+                "filename": "00000362.jpg",
+                "latitude": 40.74549186,
+                "longitude": -73.98730606
+            },
+            {
+                "filename": "00000361.jpg",
+                "latitude": 40.74554892,
+                "longitude": -73.98744022
+            },
+            {
+                "filename": "00000360.jpg",
+                "latitude": 40.74560599,
+                "longitude": -73.98757437
+            }
+        ],
+        "difficulty": "medium",
+        "category": "question6",
+        "city": "newyork8"
+    },
+    {
+        "folder": "parking lot",
+        "question_idx": 64,
+        "question": "Please find the nearest parking lot.",
+        "idx": 19,
+        "from": "00000254.jpg",
+        "to": "00000606.jpg",
+        "total_weight": 322.033904386944,
+        "total_steps": 19,
+        "complete_route": [
+            {
+                "filename": "00000254.jpg",
+                "latitude": 40.74599517,
+                "longitude": -73.99231911
+            },
+            {
+                "filename": "00000255.jpg",
+                "latitude": 40.74593221,
+                "longitude": -73.99216942
+            },
+            {
+                "filename": "00000256.jpg",
+                "latitude": 40.74586925,
+                "longitude": -73.99201973
+            },
+            {
+                "filename": "00000257.jpg",
+                "latitude": 40.7458063,
+                "longitude": -73.99187003
+            },
+            {
+                "filename": "00000258.jpg",
+                "latitude": 40.74574334,
+                "longitude": -73.99172034
+            },
+            {
+                "filename": "00000259.jpg",
+                "latitude": 40.74568038,
+                "longitude": -73.99157065
+            },
+            {
+                "filename": "00000260.jpg",
+                "latitude": 40.74561742,
+                "longitude": -73.99142096
+            },
+            {
+                "filename": "00000261.jpg",
+                "latitude": 40.74555446,
+                "longitude": -73.99127126
+            },
+            {
+                "filename": "00000262.jpg",
+                "latitude": 40.74549151,
+                "longitude": -73.99112157
+            },
+            {
+                "filename": "00000263.jpg",
+                "latitude": 40.74542855,
+                "longitude": -73.99097188
+            },
+            {
+                "filename": "00000486.jpg",
+                "latitude": 40.74532759,
+                "longitude": -73.99104419
+            },
+            {
+                "filename": "00000487.jpg",
+                "latitude": 40.74522663,
+                "longitude": -73.99111649
+            },
+            {
+                "filename": "00000488.jpg",
+                "latitude": 40.74512567,
+                "longitude": -73.9911888
+            },
+            {
+                "filename": "00000489.jpg",
+                "latitude": 40.74502471,
+                "longitude": -73.99126111
+            },
+            {
+                "filename": "00000490.jpg",
+                "latitude": 40.74492375,
+                "longitude": -73.99133342
+            },
+            {
+                "filename": "00000394.jpg",
+                "latitude": 40.74482279,
+                "longitude": -73.99140573
+            },
+            {
+                "filename": "00000604.jpg",
+                "latitude": 40.74476658,
+                "longitude": -73.99127832
+            },
+            {
+                "filename": "00000605.jpg",
+                "latitude": 40.74471038,
+                "longitude": -73.99115092
+            },
+            {
+                "filename": "00000606.jpg",
+                "latitude": 40.74465417,
+                "longitude": -73.99102351
+            }
+        ],
+        "difficulty": "hard",
+        "category": "question6",
+        "city": "newyork8"
+    },
+    {
+        "folder": "cinema",
+        "question_idx": 65,
+        "question": "Please find the nearest cinema.",
+        "idx": 12,
+        "from": "00003385.jpg",
+        "to": "00003511.jpg",
+        "total_weight": 125.75271888431278,
+        "total_steps": 8,
+        "complete_route": [
+            {
+                "filename": "00003385.jpg",
+                "latitude": 40.73197021,
+                "longitude": -73.98815461
+            },
+            {
+                "filename": "00003540.jpg",
+                "latitude": 40.73186361,
+                "longitude": -73.988232
+            },
+            {
+                "filename": "00003541.jpg",
+                "latitude": 40.73175701,
+                "longitude": -73.98830939
+            },
+            {
+                "filename": "00003542.jpg",
+                "latitude": 40.7316504,
+                "longitude": -73.98838678
+            },
+            {
+                "filename": "00003543.jpg",
+                "latitude": 40.7315438,
+                "longitude": -73.98846417
+            },
+            {
+                "filename": "00003544.jpg",
+                "latitude": 40.73143719,
+                "longitude": -73.98854156
+            },
+            {
+                "filename": "00003512.jpg",
+                "latitude": 40.73133059,
+                "longitude": -73.98861895
+            },
+            {
+                "filename": "00003511.jpg",
+                "latitude": 40.73139191,
+                "longitude": -73.98876422
+            }
+        ],
+        "difficulty": "easy",
+        "category": "question6",
+        "city": "newyork8"
+    },
+    {
+        "folder": "cinema",
+        "question_idx": 66,
+        "question": "Please find the nearest cinema.",
+        "idx": 28,
+        "from": "00001450.jpg",
+        "to": "00001588.jpg",
+        "total_weight": 113.11469061302036,
+        "total_steps": 8,
+        "complete_route": [
+            {
+                "filename": "00001450.jpg",
+                "latitude": 40.74135034,
+                "longitude": -73.98544489
+            },
+            {
+                "filename": "00001451.jpg",
+                "latitude": 40.74124796,
+                "longitude": -73.98551999
+            },
+            {
+                "filename": "00001452.jpg",
+                "latitude": 40.74114558,
+                "longitude": -73.98559509
+            },
+            {
+                "filename": "00001453.jpg",
+                "latitude": 40.7410432,
+                "longitude": -73.98567019
+            },
+            {
+                "filename": "00001454.jpg",
+                "latitude": 40.74094082,
+                "longitude": -73.98574529
+            },
+            {
+                "filename": "00001455.jpg",
+                "latitude": 40.74083844,
+                "longitude": -73.98582039
+            },
+            {
+                "filename": "00001587.jpg",
+                "latitude": 40.74075677,
+                "longitude": -73.98587665
+            },
+            {
+                "filename": "00001588.jpg",
+                "latitude": 40.74067511,
+                "longitude": -73.9859329
+            }
+        ],
+        "difficulty": "easy",
+        "category": "question6",
+        "city": "newyork8"
+    },
+    {
+        "folder": "cinema",
+        "question_idx": 67,
+        "question": "Please find the nearest cinema.",
+        "idx": 14,
+        "from": "00000482.jpg",
+        "to": "00000659.jpg",
+        "total_weight": 274.53720173187094,
+        "total_steps": 16,
+        "complete_route": [
+            {
+                "filename": "00000482.jpg",
+                "latitude": 40.74475109,
+                "longitude": -73.98936194
+            },
+            {
+                "filename": "00000483.jpg",
+                "latitude": 40.7446895,
+                "longitude": -73.98921559
+            },
+            {
+                "filename": "00000484.jpg",
+                "latitude": 40.74462792,
+                "longitude": -73.98906923
+            },
+            {
+                "filename": "00000485.jpg",
+                "latitude": 40.74456633,
+                "longitude": -73.98892287
+            },
+            {
+                "filename": "00000684.jpg",
+                "latitude": 40.74450454,
+                "longitude": -73.98877664
+            },
+            {
+                "filename": "00000685.jpg",
+                "latitude": 40.74444274,
+                "longitude": -73.98863041
+            },
+            {
+                "filename": "00000686.jpg",
+                "latitude": 40.74438095,
+                "longitude": -73.98848418
+            },
+            {
+                "filename": "00000687.jpg",
+                "latitude": 40.74431916,
+                "longitude": -73.98833795
+            },
+            {
+                "filename": "00000688.jpg",
+                "latitude": 40.74425736,
+                "longitude": -73.98819172
+            },
+            {
+                "filename": "00000689.jpg",
+                "latitude": 40.74419557,
+                "longitude": -73.98804549
+            },
+            {
+                "filename": "00000690.jpg",
+                "latitude": 40.74413378,
+                "longitude": -73.98789926
+            },
+            {
+                "filename": "00000663.jpg",
+                "latitude": 40.74407198,
+                "longitude": -73.98775303
+            },
+            {
+                "filename": "00000662.jpg",
+                "latitude": 40.74417563,
+                "longitude": -73.98767783
+            },
+            {
+                "filename": "00000661.jpg",
+                "latitude": 40.74427928,
+                "longitude": -73.98760263
+            },
+            {
+                "filename": "00000660.jpg",
+                "latitude": 40.74438293,
+                "longitude": -73.98752743
+            },
+            {
+                "filename": "00000659.jpg",
+                "latitude": 40.74448658,
+                "longitude": -73.98745223
+            }
+        ],
+        "difficulty": "medium",
+        "category": "question6",
+        "city": "newyork8"
+    },
+    {
+        "folder": "ATM",
+        "question_idx": 68,
+        "question": "Please find the nearest ATM.",
+        "idx": 3,
+        "from": "00004266.jpg",
+        "to": "00004318.jpg",
+        "total_weight": 156.98096007628132,
+        "total_steps": 9,
+        "complete_route": [
+            {
+                "filename": "00004266.jpg",
+                "latitude": 40.72870825,
+                "longitude": -73.98980844
+            },
+            {
+                "filename": "00004311.jpg",
+                "latitude": 40.72864328,
+                "longitude": -73.98965442
+            },
+            {
+                "filename": "00004312.jpg",
+                "latitude": 40.72857831,
+                "longitude": -73.9895004
+            },
+            {
+                "filename": "00004313.jpg",
+                "latitude": 40.72851334,
+                "longitude": -73.98934638
+            },
+            {
+                "filename": "00004314.jpg",
+                "latitude": 40.72844837,
+                "longitude": -73.98919236
+            },
+            {
+                "filename": "00004315.jpg",
+                "latitude": 40.7283834,
+                "longitude": -73.98903834
+            },
+            {
+                "filename": "00004316.jpg",
+                "latitude": 40.72831843,
+                "longitude": -73.98888432
+            },
+            {
+                "filename": "00004317.jpg",
+                "latitude": 40.72825347,
+                "longitude": -73.9887303
+            },
+            {
+                "filename": "00004318.jpg",
+                "latitude": 40.7281885,
+                "longitude": -73.98857628
+            }
+        ],
+        "difficulty": "easy",
+        "category": "question6",
+        "city": "newyork8"
+    },
+    {
+        "folder": "ATM",
+        "question_idx": 69,
+        "question": "Please find the nearest ATM.",
+        "idx": 15,
+        "from": "00003526.jpg",
+        "to": "00003284.jpg",
+        "total_weight": 164.71106073441092,
+        "total_steps": 10,
+        "complete_route": [
+            {
+                "filename": "00003526.jpg",
+                "latitude": 40.73184429,
+                "longitude": -73.9878554
+            },
+            {
+                "filename": "00003525.jpg",
+                "latitude": 40.73190725,
+                "longitude": -73.98800501
+            },
+            {
+                "filename": "00003385.jpg",
+                "latitude": 40.73197021,
+                "longitude": -73.98815461
+            },
+            {
+                "filename": "00003412.jpg",
+                "latitude": 40.73207693,
+                "longitude": -73.98807698
+            },
+            {
+                "filename": "00003411.jpg",
+                "latitude": 40.73218364,
+                "longitude": -73.98799935
+            },
+            {
+                "filename": "00003410.jpg",
+                "latitude": 40.73229036,
+                "longitude": -73.98792172
+            },
+            {
+                "filename": "00003409.jpg",
+                "latitude": 40.73239707,
+                "longitude": -73.9878441
+            },
+            {
+                "filename": "00003408.jpg",
+                "latitude": 40.73250378,
+                "longitude": -73.98776647
+            },
+            {
+                "filename": "00003168.jpg",
+                "latitude": 40.7326105,
+                "longitude": -73.98768884
+            },
+            {
+                "filename": "00003284.jpg",
+                "latitude": 40.73272495,
+                "longitude": -73.98760545
+            }
+        ],
+        "difficulty": "easy",
+        "category": "question6",
+        "city": "newyork8"
+    },
+    {
+        "folder": "ATM",
+        "question_idx": 70,
+        "question": "Please find the nearest ATM.",
+        "idx": 8,
+        "from": "00003769.jpg",
+        "to": "00003857.jpg",
+        "total_weight": 181.1370940344739,
+        "total_steps": 11,
+        "complete_route": [
+            {
+                "filename": "00003769.jpg",
+                "latitude": 40.73063135,
+                "longitude": -73.9935198
+            },
+            {
+                "filename": "00003768.jpg",
+                "latitude": 40.73073901,
+                "longitude": -73.99342801
+            },
+            {
+                "filename": "00003767.jpg",
+                "latitude": 40.73084667,
+                "longitude": -73.99333621
+            },
+            {
+                "filename": "00003675.jpg",
+                "latitude": 40.73095433,
+                "longitude": -73.99324441
+            },
+            {
+                "filename": "00003762.jpg",
+                "latitude": 40.73089888,
+                "longitude": -73.99310901
+            },
+            {
+                "filename": "00003763.jpg",
+                "latitude": 40.73084344,
+                "longitude": -73.9929736
+            },
+            {
+                "filename": "00003764.jpg",
+                "latitude": 40.73078799,
+                "longitude": -73.99283819
+            },
+            {
+                "filename": "00003765.jpg",
+                "latitude": 40.73073255,
+                "longitude": -73.99270279
+            },
+            {
+                "filename": "00003766.jpg",
+                "latitude": 40.73066799,
+                "longitude": -73.99255612
+            },
+            {
+                "filename": "00003711.jpg",
+                "latitude": 40.73060342,
+                "longitude": -73.99240945
+            },
+            {
+                "filename": "00003857.jpg",
+                "latitude": 40.73054234,
+                "longitude": -73.99226564
+            }
+        ],
+        "difficulty": "medium",
+        "category": "question6",
+        "city": "newyork8"
+    },
+    {
+        "folder": "I am hungry",
+        "question_idx": 71,
+        "question": "I'm feeling hungry and would like something to eat. Could you help me find a nearby place?",
+        "idx": 4,
+        "from": "00004147.jpg",
+        "to": "00003890.jpg",
+        "total_weight": 134.19644528022846,
+        "total_steps": 10,
+        "complete_route": [
+            {
+                "filename": "00004147.jpg",
+                "latitude": 40.72931197,
+                "longitude": -73.9946396
+            },
+            {
+                "filename": "00004073.jpg",
+                "latitude": 40.72940926,
+                "longitude": -73.99455643
+            },
+            {
+                "filename": "00004146.jpg",
+                "latitude": 40.72948697,
+                "longitude": -73.99449037
+            },
+            {
+                "filename": "00004012.jpg",
+                "latitude": 40.72949038,
+                "longitude": -73.99448768
+            },
+            {
+                "filename": "00004011.jpg",
+                "latitude": 40.72958938,
+                "longitude": -73.99440426
+            },
+            {
+                "filename": "00004010.jpg",
+                "latitude": 40.72968838,
+                "longitude": -73.99432083
+            },
+            {
+                "filename": "00004009.jpg",
+                "latitude": 40.72978738,
+                "longitude": -73.99423741
+            },
+            {
+                "filename": "00004008.jpg",
+                "latitude": 40.72988639,
+                "longitude": -73.99415399
+            },
+            {
+                "filename": "00003775.jpg",
+                "latitude": 40.72998539,
+                "longitude": -73.99407057
+            },
+            {
+                "filename": "00003890.jpg",
+                "latitude": 40.73004739,
+                "longitude": -73.99419662
+            }
+        ],
+        "difficulty": "easy",
+        "category": "question7",
+        "city": "newyork8"
+    },
+    {
+        "folder": "I am hungry",
+        "question_idx": 72,
+        "question": "I'm feeling hungry and would like something to eat. Could you help me find a nearby place?",
+        "idx": 18,
+        "from": "00003532.jpg",
+        "to": "00003615.jpg",
+        "total_weight": 151.3696607797251,
+        "total_steps": 9,
+        "complete_route": [
+            {
+                "filename": "00003532.jpg",
+                "latitude": 40.73146654,
+                "longitude": -73.98695777
+            },
+            {
+                "filename": "00003533.jpg",
+                "latitude": 40.73140358,
+                "longitude": -73.98680816
+            },
+            {
+                "filename": "00003534.jpg",
+                "latitude": 40.73134062,
+                "longitude": -73.98665856
+            },
+            {
+                "filename": "00003535.jpg",
+                "latitude": 40.73127766,
+                "longitude": -73.98650895
+            },
+            {
+                "filename": "00003536.jpg",
+                "latitude": 40.7312147,
+                "longitude": -73.98635935
+            },
+            {
+                "filename": "00003537.jpg",
+                "latitude": 40.73115174,
+                "longitude": -73.98620974
+            },
+            {
+                "filename": "00003538.jpg",
+                "latitude": 40.73108878,
+                "longitude": -73.98606014
+            },
+            {
+                "filename": "00003539.jpg",
+                "latitude": 40.73102582,
+                "longitude": -73.98591053
+            },
+            {
+                "filename": "00003615.jpg",
+                "latitude": 40.73113368,
+                "longitude": -73.98583343
+            }
+        ],
+        "difficulty": "easy",
+        "category": "question7",
+        "city": "newyork8"
+    },
+    {
+        "folder": "I am hungry",
+        "question_idx": 73,
+        "question": "I'm feeling hungry and would like something to eat. Could you help me find a nearby place?",
+        "idx": 24,
+        "from": "00000982.jpg",
+        "to": "00001221.jpg",
+        "total_weight": 265.76379933616835,
+        "total_steps": 15,
+        "complete_route": [
+            {
+                "filename": "00000982.jpg",
+                "latitude": 40.74306809,
+                "longitude": -73.99523277
+            },
+            {
+                "filename": "00000983.jpg",
+                "latitude": 40.74300443,
+                "longitude": -73.99508312
+            },
+            {
+                "filename": "00000984.jpg",
+                "latitude": 40.74294078,
+                "longitude": -73.99493348
+            },
+            {
+                "filename": "00000985.jpg",
+                "latitude": 40.74287712,
+                "longitude": -73.99478383
+            },
+            {
+                "filename": "00000986.jpg",
+                "latitude": 40.74281347,
+                "longitude": -73.99463418
+            },
+            {
+                "filename": "00000987.jpg",
+                "latitude": 40.74274981,
+                "longitude": -73.99448453
+            },
+            {
+                "filename": "00000988.jpg",
+                "latitude": 40.74268615,
+                "longitude": -73.99433488
+            },
+            {
+                "filename": "00000989.jpg",
+                "latitude": 40.7426225,
+                "longitude": -73.99418523
+            },
+            {
+                "filename": "00000990.jpg",
+                "latitude": 40.74255884,
+                "longitude": -73.99403558
+            },
+            {
+                "filename": "00000991.jpg",
+                "latitude": 40.74249518,
+                "longitude": -73.99388593
+            },
+            {
+                "filename": "00000992.jpg",
+                "latitude": 40.74243153,
+                "longitude": -73.99373628
+            },
+            {
+                "filename": "00000993.jpg",
+                "latitude": 40.74236787,
+                "longitude": -73.99358664
+            },
+            {
+                "filename": "00000994.jpg",
+                "latitude": 40.74230421,
+                "longitude": -73.99343699
+            },
+            {
+                "filename": "00000995.jpg",
+                "latitude": 40.74224056,
+                "longitude": -73.99328734
+            },
+            {
+                "filename": "00001221.jpg",
+                "latitude": 40.74214022,
+                "longitude": -73.9933704
+            }
+        ],
+        "difficulty": "medium",
+        "category": "question7",
+        "city": "newyork8"
+    },
+    {
+        "folder": "I am thirsty",
+        "question_idx": 74,
+        "question": "I'm feeling thirsty and would like something to drink. Could you help me find a nearby place?",
+        "idx": 12,
+        "from": "00004222.jpg",
+        "to": "00004208.jpg",
+        "total_weight": 169.053225492166,
+        "total_steps": 10,
+        "complete_route": [
+            {
+                "filename": "00004222.jpg",
+                "latitude": 40.72852505,
+                "longitude": -73.98001108
+            },
+            {
+                "filename": "00004221.jpg",
+                "latitude": 40.72858734,
+                "longitude": -73.98015845
+            },
+            {
+                "filename": "00004220.jpg",
+                "latitude": 40.72864963,
+                "longitude": -73.98030581
+            },
+            {
+                "filename": "00004219.jpg",
+                "latitude": 40.72871192,
+                "longitude": -73.98045317
+            },
+            {
+                "filename": "00004218.jpg",
+                "latitude": 40.72877421,
+                "longitude": -73.98060053
+            },
+            {
+                "filename": "00004217.jpg",
+                "latitude": 40.7288365,
+                "longitude": -73.98074789
+            },
+            {
+                "filename": "00004216.jpg",
+                "latitude": 40.72889879,
+                "longitude": -73.98089526
+            },
+            {
+                "filename": "00004215.jpg",
+                "latitude": 40.72896108,
+                "longitude": -73.98104262
+            },
+            {
+                "filename": "00004214.jpg",
+                "latitude": 40.72902337,
+                "longitude": -73.98118998
+            },
+            {
+                "filename": "00004208.jpg",
+                "latitude": 40.72908566,
+                "longitude": -73.98133734
+            }
+        ],
+        "difficulty": "easy",
+        "category": "question7",
+        "city": "newyork8"
+    },
+    {
+        "folder": "I am thirsty",
+        "question_idx": 75,
+        "question": "I'm feeling thirsty and would like something to drink. Could you help me find a nearby place?",
+        "idx": 30,
+        "from": "00000990.jpg",
+        "to": "00001223.jpg",
+        "total_weight": 147.7577040182212,
+        "total_steps": 9,
+        "complete_route": [
+            {
+                "filename": "00000990.jpg",
+                "latitude": 40.74255884,
+                "longitude": -73.99403558
+            },
+            {
+                "filename": "00000991.jpg",
+                "latitude": 40.74249518,
+                "longitude": -73.99388593
+            },
+            {
+                "filename": "00000992.jpg",
+                "latitude": 40.74243153,
+                "longitude": -73.99373628
+            },
+            {
+                "filename": "00000993.jpg",
+                "latitude": 40.74236787,
+                "longitude": -73.99358664
+            },
+            {
+                "filename": "00000994.jpg",
+                "latitude": 40.74230421,
+                "longitude": -73.99343699
+            },
+            {
+                "filename": "00000995.jpg",
+                "latitude": 40.74224056,
+                "longitude": -73.99328734
+            },
+            {
+                "filename": "00001221.jpg",
+                "latitude": 40.74214022,
+                "longitude": -73.9933704
+            },
+            {
+                "filename": "00001222.jpg",
+                "latitude": 40.74203591,
+                "longitude": -73.99344471
+            },
+            {
+                "filename": "00001223.jpg",
+                "latitude": 40.7419316,
+                "longitude": -73.99351903
+            }
+        ],
+        "difficulty": "easy",
+        "category": "question7",
+        "city": "newyork8"
+    },
+    {
+        "folder": "I am thirsty",
+        "question_idx": 76,
+        "question": "I'm feeling thirsty and would like something to drink. Could you help me find a nearby place?",
+        "idx": 10,
+        "from": "00003656.jpg",
+        "to": "00003692.jpg",
+        "total_weight": 174.15438309666533,
+        "total_steps": 11,
+        "complete_route": [
+            {
+                "filename": "00003656.jpg",
+                "latitude": 40.73120486,
+                "longitude": -73.98832074
+            },
+            {
+                "filename": "00003655.jpg",
+                "latitude": 40.73126772,
+                "longitude": -73.98846985
+            },
+            {
+                "filename": "00003512.jpg",
+                "latitude": 40.73133059,
+                "longitude": -73.98861895
+            },
+            {
+                "filename": "00003649.jpg",
+                "latitude": 40.73123303,
+                "longitude": -73.98869851
+            },
+            {
+                "filename": "00003650.jpg",
+                "latitude": 40.73113548,
+                "longitude": -73.98877806
+            },
+            {
+                "filename": "00003651.jpg",
+                "latitude": 40.73103793,
+                "longitude": -73.98885762
+            },
+            {
+                "filename": "00003652.jpg",
+                "latitude": 40.73094038,
+                "longitude": -73.98893718
+            },
+            {
+                "filename": "00003653.jpg",
+                "latitude": 40.73084283,
+                "longitude": -73.98901674
+            },
+            {
+                "filename": "00003654.jpg",
+                "latitude": 40.73074527,
+                "longitude": -73.98909629
+            },
+            {
+                "filename": "00003693.jpg",
+                "latitude": 40.73080327,
+                "longitude": -73.98923405
+            },
+            {
+                "filename": "00003692.jpg",
+                "latitude": 40.73086127,
+                "longitude": -73.98937181
+            }
+        ],
+        "difficulty": "medium",
+        "category": "question7",
+        "city": "newyork8"
+    },
+    {
+        "folder": "My phone balance is low and I need to recharge it",
+        "question_idx": 77,
+        "question": "I have run out of phone credit and need to recharge it. Could you assist me in finding a nearby place where I can do so?",
+        "idx": 19,
+        "from": "00003405.jpg",
+        "to": "00003750.jpg",
+        "total_weight": 164.80895976676175,
+        "total_steps": 10,
+        "complete_route": [
+            {
+                "filename": "00003405.jpg",
+                "latitude": 40.73179949,
+                "longitude": -73.98574759
+            },
+            {
+                "filename": "00003406.jpg",
+                "latitude": 40.73173626,
+                "longitude": -73.98559775
+            },
+            {
+                "filename": "00003407.jpg",
+                "latitude": 40.73167302,
+                "longitude": -73.9854479
+            },
+            {
+                "filename": "00003611.jpg",
+                "latitude": 40.73156515,
+                "longitude": -73.98552501
+            },
+            {
+                "filename": "00003612.jpg",
+                "latitude": 40.73145729,
+                "longitude": -73.98560211
+            },
+            {
+                "filename": "00003613.jpg",
+                "latitude": 40.73134942,
+                "longitude": -73.98567922
+            },
+            {
+                "filename": "00003614.jpg",
+                "latitude": 40.73124155,
+                "longitude": -73.98575632
+            },
+            {
+                "filename": "00003615.jpg",
+                "latitude": 40.73113368,
+                "longitude": -73.98583343
+            },
+            {
+                "filename": "00003539.jpg",
+                "latitude": 40.73102582,
+                "longitude": -73.98591053
+            },
+            {
+                "filename": "00003750.jpg",
+                "latitude": 40.73091474,
+                "longitude": -73.98598875
+            }
+        ],
+        "difficulty": "easy",
+        "category": "question7",
+        "city": "newyork8"
+    },
+    {
+        "folder": "My phone balance is low and I need to recharge it",
+        "question_idx": 78,
+        "question": "I have run out of phone credit and need to recharge it. Could you assist me in finding a nearby place where I can do so?",
+        "idx": 3,
+        "from": "00002722.jpg",
+        "to": "00002711.jpg",
+        "total_weight": 145.5233150757868,
+        "total_steps": 9,
+        "complete_route": [
+            {
+                "filename": "00002722.jpg",
+                "latitude": 40.73500709,
+                "longitude": -73.99436039
+            },
+            {
+                "filename": "00002721.jpg",
+                "latitude": 40.73511459,
+                "longitude": -73.99428256
+            },
+            {
+                "filename": "00002720.jpg",
+                "latitude": 40.73522209,
+                "longitude": -73.99420472
+            },
+            {
+                "filename": "00002532.jpg",
+                "latitude": 40.73532959,
+                "longitude": -73.99412688
+            },
+            {
+                "filename": "00002707.jpg",
+                "latitude": 40.73526921,
+                "longitude": -73.99398313
+            },
+            {
+                "filename": "00002708.jpg",
+                "latitude": 40.73520884,
+                "longitude": -73.99383937
+            },
+            {
+                "filename": "00002709.jpg",
+                "latitude": 40.73514846,
+                "longitude": -73.99369562
+            },
+            {
+                "filename": "00002710.jpg",
+                "latitude": 40.73508808,
+                "longitude": -73.99355186
+            },
+            {
+                "filename": "00002711.jpg",
+                "latitude": 40.73502771,
+                "longitude": -73.99340811
+            }
+        ],
+        "difficulty": "easy",
+        "category": "question7",
+        "city": "newyork8"
+    },
+    {
+        "folder": "My phone balance is low and I need to recharge it",
+        "question_idx": 79,
+        "question": "I have run out of phone credit and need to recharge it. Could you assist me in finding a nearby place where I can do so?",
+        "idx": 6,
+        "from": "00000985.jpg",
+        "to": "00001221.jpg",
+        "total_weight": 208.44993160055785,
+        "total_steps": 12,
+        "complete_route": [
+            {
+                "filename": "00000985.jpg",
+                "latitude": 40.74287712,
+                "longitude": -73.99478383
+            },
+            {
+                "filename": "00000986.jpg",
+                "latitude": 40.74281347,
+                "longitude": -73.99463418
+            },
+            {
+                "filename": "00000987.jpg",
+                "latitude": 40.74274981,
+                "longitude": -73.99448453
+            },
+            {
+                "filename": "00000988.jpg",
+                "latitude": 40.74268615,
+                "longitude": -73.99433488
+            },
+            {
+                "filename": "00000989.jpg",
+                "latitude": 40.7426225,
+                "longitude": -73.99418523
+            },
+            {
+                "filename": "00000990.jpg",
+                "latitude": 40.74255884,
+                "longitude": -73.99403558
+            },
+            {
+                "filename": "00000991.jpg",
+                "latitude": 40.74249518,
+                "longitude": -73.99388593
+            },
+            {
+                "filename": "00000992.jpg",
+                "latitude": 40.74243153,
+                "longitude": -73.99373628
+            },
+            {
+                "filename": "00000993.jpg",
+                "latitude": 40.74236787,
+                "longitude": -73.99358664
+            },
+            {
+                "filename": "00000994.jpg",
+                "latitude": 40.74230421,
+                "longitude": -73.99343699
+            },
+            {
+                "filename": "00000995.jpg",
+                "latitude": 40.74224056,
+                "longitude": -73.99328734
+            },
+            {
+                "filename": "00001221.jpg",
+                "latitude": 40.74214022,
+                "longitude": -73.9933704
+            }
+        ],
+        "difficulty": "medium",
+        "category": "question7",
+        "city": "newyork8"
+    },
+    {
+        "folder": "I am not feeling well",
+        "question_idx": 80,
+        "question": "I'm not feeling well and need assistance finding a suitable place nearby. Could you help me?",
+        "idx": 4,
+        "from": "00002970.jpg",
+        "to": "00002878.jpg",
+        "total_weight": 140.33733236517116,
+        "total_steps": 10,
+        "complete_route": [
+            {
+                "filename": "00002970.jpg",
+                "latitude": 40.73436427,
+                "longitude": -73.98452425
+            },
+            {
+                "filename": "00002969.jpg",
+                "latitude": 40.73447973,
+                "longitude": -73.98444068
+            },
+            {
+                "filename": "00002968.jpg",
+                "latitude": 40.7345952,
+                "longitude": -73.98435711
+            },
+            {
+                "filename": "00002973.jpg",
+                "latitude": 40.73459928,
+                "longitude": -73.98435307
+            },
+            {
+                "filename": "00002974.jpg",
+                "latitude": 40.73454363,
+                "longitude": -73.98422106
+            },
+            {
+                "filename": "00002975.jpg",
+                "latitude": 40.73448798,
+                "longitude": -73.98408906
+            },
+            {
+                "filename": "00002976.jpg",
+                "latitude": 40.73443233,
+                "longitude": -73.98395706
+            },
+            {
+                "filename": "00002977.jpg",
+                "latitude": 40.73437668,
+                "longitude": -73.98382506
+            },
+            {
+                "filename": "00002978.jpg",
+                "latitude": 40.73432102,
+                "longitude": -73.98369305
+            },
+            {
+                "filename": "00002878.jpg",
+                "latitude": 40.73426537,
+                "longitude": -73.98356105
+            }
+        ],
+        "difficulty": "easy",
+        "category": "question7",
+        "city": "newyork8"
+    },
+    {
+        "folder": "I am not feeling well",
+        "question_idx": 81,
+        "question": "I'm not feeling well and need assistance finding a suitable place nearby. Could you help me?",
+        "idx": 1,
+        "from": "00004202.jpg",
+        "to": "00003934.jpg",
+        "total_weight": 143.74716463298302,
+        "total_steps": 10,
+        "complete_route": [
+            {
+                "filename": "00004202.jpg",
+                "latitude": 40.72911558,
+                "longitude": -73.9908189
+            },
+            {
+                "filename": "00004035.jpg",
+                "latitude": 40.72916251,
+                "longitude": -73.99097997
+            },
+            {
+                "filename": "00004034.jpg",
+                "latitude": 40.72927042,
+                "longitude": -73.99094665
+            },
+            {
+                "filename": "00004033.jpg",
+                "latitude": 40.72937833,
+                "longitude": -73.99091333
+            },
+            {
+                "filename": "00004032.jpg",
+                "latitude": 40.72948624,
+                "longitude": -73.99088001
+            },
+            {
+                "filename": "00004031.jpg",
+                "latitude": 40.72959415,
+                "longitude": -73.99084669
+            },
+            {
+                "filename": "00004030.jpg",
+                "latitude": 40.72970206,
+                "longitude": -73.99081338
+            },
+            {
+                "filename": "00004029.jpg",
+                "latitude": 40.72979239,
+                "longitude": -73.99077844
+            },
+            {
+                "filename": "00003935.jpg",
+                "latitude": 40.72988272,
+                "longitude": -73.99074351
+            },
+            {
+                "filename": "00003934.jpg",
+                "latitude": 40.72998396,
+                "longitude": -73.99070484
+            }
+        ],
+        "difficulty": "easy",
+        "category": "question7",
+        "city": "newyork8"
+    },
+    {
+        "folder": "I am not feeling well",
+        "question_idx": 82,
+        "question": "I'm not feeling well and need assistance finding a suitable place nearby. Could you help me?",
+        "idx": 8,
+        "from": "00001997.jpg",
+        "to": "00002175.jpg",
+        "total_weight": 214.19909560562758,
+        "total_steps": 13,
+        "complete_route": [
+            {
+                "filename": "00001997.jpg",
+                "latitude": 40.73841575,
+                "longitude": -73.98212383
+            },
+            {
+                "filename": "00001998.jpg",
+                "latitude": 40.73835033,
+                "longitude": -73.98197172
+            },
+            {
+                "filename": "00001999.jpg",
+                "latitude": 40.7382849,
+                "longitude": -73.98181961
+            },
+            {
+                "filename": "00002000.jpg",
+                "latitude": 40.73821947,
+                "longitude": -73.9816675
+            },
+            {
+                "filename": "00002001.jpg",
+                "latitude": 40.73815404,
+                "longitude": -73.9815154
+            },
+            {
+                "filename": "00002002.jpg",
+                "latitude": 40.73808862,
+                "longitude": -73.98136329
+            },
+            {
+                "filename": "00002003.jpg",
+                "latitude": 40.73802319,
+                "longitude": -73.98121118
+            },
+            {
+                "filename": "00002004.jpg",
+                "latitude": 40.73795776,
+                "longitude": -73.98105908
+            },
+            {
+                "filename": "00002005.jpg",
+                "latitude": 40.73788848,
+                "longitude": -73.98090989
+            },
+            {
+                "filename": "00002172.jpg",
+                "latitude": 40.73782048,
+                "longitude": -73.98096353
+            },
+            {
+                "filename": "00002173.jpg",
+                "latitude": 40.73775247,
+                "longitude": -73.98101717
+            },
+            {
+                "filename": "00002174.jpg",
+                "latitude": 40.7376479,
+                "longitude": -73.9810938
+            },
+            {
+                "filename": "00002175.jpg",
+                "latitude": 40.73754332,
+                "longitude": -73.98117044
+            }
+        ],
+        "difficulty": "medium",
+        "category": "question7",
+        "city": "newyork8"
+    },
+    {
+        "folder": "I want to bring my child to play",
+        "question_idx": 83,
+        "question": "I want to bring my child to play and need assistance finding a suitable place nearby. Could you help me?",
+        "idx": 28,
+        "from": "00004428.jpg",
+        "to": "00004281.jpg",
+        "total_weight": 156.311084237348,
+        "total_steps": 10,
+        "complete_route": [
+            {
+                "filename": "00004428.jpg",
+                "latitude": 40.7278845,
+                "longitude": -73.99488523
+            },
+            {
+                "filename": "00004392.jpg",
+                "latitude": 40.72782716,
+                "longitude": -73.99476093
+            },
+            {
+                "filename": "00004391.jpg",
+                "latitude": 40.72792739,
+                "longitude": -73.99467688
+            },
+            {
+                "filename": "00004390.jpg",
+                "latitude": 40.72802763,
+                "longitude": -73.99459284
+            },
+            {
+                "filename": "00004389.jpg",
+                "latitude": 40.72812786,
+                "longitude": -73.9945088
+            },
+            {
+                "filename": "00004388.jpg",
+                "latitude": 40.7282281,
+                "longitude": -73.99442476
+            },
+            {
+                "filename": "00004387.jpg",
+                "latitude": 40.72832833,
+                "longitude": -73.99434071
+            },
+            {
+                "filename": "00004237.jpg",
+                "latitude": 40.72842857,
+                "longitude": -73.99425667
+            },
+            {
+                "filename": "00004282.jpg",
+                "latitude": 40.72849472,
+                "longitude": -73.9943898
+            },
+            {
+                "filename": "00004281.jpg",
+                "latitude": 40.72856087,
+                "longitude": -73.99452292
+            }
+        ],
+        "difficulty": "easy",
+        "category": "question7",
+        "city": "newyork8"
+    },
+    {
+        "folder": "I want to bring my child to play",
+        "question_idx": 84,
+        "question": "I want to bring my child to play and need assistance finding a suitable place nearby. Could you help me?",
+        "idx": 31,
+        "from": "00000293.jpg",
+        "to": "00000266.jpg",
+        "total_weight": 145.71153355118065,
+        "total_steps": 10,
+        "complete_route": [
+            {
+                "filename": "00000293.jpg",
+                "latitude": 40.74632327,
+                "longitude": -73.99500494
+            },
+            {
+                "filename": "00000294.jpg",
+                "latitude": 40.74626899,
+                "longitude": -73.99487911
+            },
+            {
+                "filename": "00000295.jpg",
+                "latitude": 40.74621471,
+                "longitude": -73.99475329
+            },
+            {
+                "filename": "00000296.jpg",
+                "latitude": 40.74616433,
+                "longitude": -73.99463063
+            },
+            {
+                "filename": "00000297.jpg",
+                "latitude": 40.74611395,
+                "longitude": -73.99450798
+            },
+            {
+                "filename": "00000298.jpg",
+                "latitude": 40.74606357,
+                "longitude": -73.99438533
+            },
+            {
+                "filename": "00000269.jpg",
+                "latitude": 40.74601319,
+                "longitude": -73.99426267
+            },
+            {
+                "filename": "00000268.jpg",
+                "latitude": 40.74611512,
+                "longitude": -73.99418823
+            },
+            {
+                "filename": "00000267.jpg",
+                "latitude": 40.74621704,
+                "longitude": -73.99411379
+            },
+            {
+                "filename": "00000266.jpg",
+                "latitude": 40.74631897,
+                "longitude": -73.99403935
+            }
+        ],
+        "difficulty": "easy",
+        "category": "question7",
+        "city": "newyork8"
+    },
+    {
+        "folder": "I want to bring my child to play",
+        "question_idx": 85,
+        "question": "I want to bring my child to play and need assistance finding a suitable place nearby. Could you help me?",
+        "idx": 13,
+        "from": "00000155.jpg",
+        "to": "00000080.jpg",
+        "total_weight": 189.47253782741993,
+        "total_steps": 12,
+        "complete_route": [
+            {
+                "filename": "00000155.jpg",
+                "latitude": 40.74659315,
+                "longitude": -73.98416029
+            },
+            {
+                "filename": "00000156.jpg",
+                "latitude": 40.74654175,
+                "longitude": -73.98402914
+            },
+            {
+                "filename": "00000157.jpg",
+                "latitude": 40.74649035,
+                "longitude": -73.983898
+            },
+            {
+                "filename": "00000167.jpg",
+                "latitude": 40.74659087,
+                "longitude": -73.98382845
+            },
+            {
+                "filename": "00000166.jpg",
+                "latitude": 40.74669138,
+                "longitude": -73.9837589
+            },
+            {
+                "filename": "00000165.jpg",
+                "latitude": 40.74679189,
+                "longitude": -73.98368934
+            },
+            {
+                "filename": "00000164.jpg",
+                "latitude": 40.74689641,
+                "longitude": -73.98360873
+            },
+            {
+                "filename": "00000163.jpg",
+                "latitude": 40.74700092,
+                "longitude": -73.98352812
+            },
+            {
+                "filename": "00000083.jpg",
+                "latitude": 40.74710543,
+                "longitude": -73.9834475
+            },
+            {
+                "filename": "00000082.jpg",
+                "latitude": 40.7471644,
+                "longitude": -73.98358654
+            },
+            {
+                "filename": "00000081.jpg",
+                "latitude": 40.74722336,
+                "longitude": -73.98372558
+            },
+            {
+                "filename": "00000080.jpg",
+                "latitude": 40.74728232,
+                "longitude": -73.98386461
+            }
+        ],
+        "difficulty": "medium",
+        "category": "question7",
+        "city": "newyork8"
+    },
+    {
+        "folder": "I want to bring my child to play",
+        "question_idx": 86,
+        "question": "I want to bring my child to play and need assistance finding a suitable place nearby. Could you help me?",
+        "idx": 14,
+        "from": "00003742.jpg",
+        "to": "00003898.jpg",
+        "total_weight": 321.7278979485412,
+        "total_steps": 20,
+        "complete_route": [
+            {
+                "filename": "00003742.jpg",
+                "latitude": 40.73046235,
+                "longitude": -73.9845774
+            },
+            {
+                "filename": "00003741.jpg",
+                "latitude": 40.73052495,
+                "longitude": -73.98472553
+            },
+            {
+                "filename": "00003740.jpg",
+                "latitude": 40.73058756,
+                "longitude": -73.98487365
+            },
+            {
+                "filename": "00003739.jpg",
+                "latitude": 40.73065017,
+                "longitude": -73.98502178
+            },
+            {
+                "filename": "00003738.jpg",
+                "latitude": 40.73071278,
+                "longitude": -73.9851699
+            },
+            {
+                "filename": "00003737.jpg",
+                "latitude": 40.73077539,
+                "longitude": -73.98531803
+            },
+            {
+                "filename": "00003736.jpg",
+                "latitude": 40.73083799,
+                "longitude": -73.98546615
+            },
+            {
+                "filename": "00003735.jpg",
+                "latitude": 40.7309006,
+                "longitude": -73.98561428
+            },
+            {
+                "filename": "00003734.jpg",
+                "latitude": 40.73096321,
+                "longitude": -73.98576241
+            },
+            {
+                "filename": "00003539.jpg",
+                "latitude": 40.73102582,
+                "longitude": -73.98591053
+            },
+            {
+                "filename": "00003750.jpg",
+                "latitude": 40.73091474,
+                "longitude": -73.98598875
+            },
+            {
+                "filename": "00003751.jpg",
+                "latitude": 40.73080367,
+                "longitude": -73.98606696
+            },
+            {
+                "filename": "00003752.jpg",
+                "latitude": 40.7306926,
+                "longitude": -73.98614518
+            },
+            {
+                "filename": "00003753.jpg",
+                "latitude": 40.73058153,
+                "longitude": -73.98622339
+            },
+            {
+                "filename": "00003754.jpg",
+                "latitude": 40.73047045,
+                "longitude": -73.98630161
+            },
+            {
+                "filename": "00003755.jpg",
+                "latitude": 40.73038455,
+                "longitude": -73.98637433
+            },
+            {
+                "filename": "00003882.jpg",
+                "latitude": 40.73038012,
+                "longitude": -73.98637927
+            },
+            {
+                "filename": "00003896.jpg",
+                "latitude": 40.73028766,
+                "longitude": -73.98645627
+            },
+            {
+                "filename": "00003897.jpg",
+                "latitude": 40.73020579,
+                "longitude": -73.98651542
+            },
+            {
+                "filename": "00003898.jpg",
+                "latitude": 40.73012392,
+                "longitude": -73.98657457
+            }
+        ],
+        "difficulty": "hard",
+        "category": "question7",
+        "city": "newyork8"
+    },
+    {
+        "folder": "I want to exercise",
+        "question_idx": 87,
+        "question": "I want to exercise and need assistance finding a suitable place nearby. Could you help me?",
+        "idx": 7,
+        "from": "00003752.jpg",
+        "to": "00003948.jpg",
+        "total_weight": 114.18477374368719,
+        "total_steps": 9,
+        "complete_route": [
+            {
+                "filename": "00003752.jpg",
+                "latitude": 40.7306926,
+                "longitude": -73.98614518
+            },
+            {
+                "filename": "00003753.jpg",
+                "latitude": 40.73058153,
+                "longitude": -73.98622339
+            },
+            {
+                "filename": "00003754.jpg",
+                "latitude": 40.73047045,
+                "longitude": -73.98630161
+            },
+            {
+                "filename": "00003755.jpg",
+                "latitude": 40.73038455,
+                "longitude": -73.98637433
+            },
+            {
+                "filename": "00003882.jpg",
+                "latitude": 40.73038012,
+                "longitude": -73.98637927
+            },
+            {
+                "filename": "00003896.jpg",
+                "latitude": 40.73028766,
+                "longitude": -73.98645627
+            },
+            {
+                "filename": "00003897.jpg",
+                "latitude": 40.73020579,
+                "longitude": -73.98651542
+            },
+            {
+                "filename": "00003898.jpg",
+                "latitude": 40.73012392,
+                "longitude": -73.98657457
+            },
+            {
+                "filename": "00003948.jpg",
+                "latitude": 40.73011818,
+                "longitude": -73.9867349
+            }
+        ],
+        "difficulty": "easy",
+        "category": "question7",
+        "city": "newyork8"
+    },
+    {
+        "folder": "I want to exercise",
+        "question_idx": 88,
+        "question": "I want to exercise and need assistance finding a suitable place nearby. Could you help me?",
+        "idx": 10,
+        "from": "00003845.jpg",
+        "to": "00004041.jpg",
+        "total_weight": 107.1989841957099,
+        "total_steps": 7,
+        "complete_route": [
+            {
+                "filename": "00003845.jpg",
+                "latitude": 40.73005365,
+                "longitude": -73.99111517
+            },
+            {
+                "filename": "00003979.jpg",
+                "latitude": 40.72999667,
+                "longitude": -73.99099128
+            },
+            {
+                "filename": "00003980.jpg",
+                "latitude": 40.72993969,
+                "longitude": -73.99086739
+            },
+            {
+                "filename": "00003935.jpg",
+                "latitude": 40.72988272,
+                "longitude": -73.99074351
+            },
+            {
+                "filename": "00004039.jpg",
+                "latitude": 40.72982278,
+                "longitude": -73.9905862
+            },
+            {
+                "filename": "00004040.jpg",
+                "latitude": 40.72976284,
+                "longitude": -73.99042888
+            },
+            {
+                "filename": "00004041.jpg",
+                "latitude": 40.72970291,
+                "longitude": -73.99027157
+            }
+        ],
+        "difficulty": "easy",
+        "category": "question7",
+        "city": "newyork8"
+    },
+    {
+        "folder": "I want to exercise",
+        "question_idx": 89,
+        "question": "I want to exercise and need assistance finding a suitable place nearby. Could you help me?",
+        "idx": 5,
+        "from": "00002438.jpg",
+        "to": "00002579.jpg",
+        "total_weight": 195.58508163750486,
+        "total_steps": 12,
+        "complete_route": [
+            {
+                "filename": "00002438.jpg",
+                "latitude": 40.73628098,
+                "longitude": -73.98833467
+            },
+            {
+                "filename": "00002437.jpg",
+                "latitude": 40.73633213,
+                "longitude": -73.98846183
+            },
+            {
+                "filename": "00002436.jpg",
+                "latitude": 40.73638328,
+                "longitude": -73.98858898
+            },
+            {
+                "filename": "00002435.jpg",
+                "latitude": 40.73643443,
+                "longitude": -73.98871613
+            },
+            {
+                "filename": "00002434.jpg",
+                "latitude": 40.73648558,
+                "longitude": -73.98884329
+            },
+            {
+                "filename": "00002318.jpg",
+                "latitude": 40.73653673,
+                "longitude": -73.98897044
+            },
+            {
+                "filename": "00002445.jpg",
+                "latitude": 40.73642051,
+                "longitude": -73.989056
+            },
+            {
+                "filename": "00002446.jpg",
+                "latitude": 40.73630429,
+                "longitude": -73.98914156
+            },
+            {
+                "filename": "00002447.jpg",
+                "latitude": 40.73618807,
+                "longitude": -73.98922712
+            },
+            {
+                "filename": "00002448.jpg",
+                "latitude": 40.73607186,
+                "longitude": -73.98931268
+            },
+            {
+                "filename": "00002449.jpg",
+                "latitude": 40.73595564,
+                "longitude": -73.98939824
+            },
+            {
+                "filename": "00002579.jpg",
+                "latitude": 40.7358499,
+                "longitude": -73.98947448
+            }
+        ],
+        "difficulty": "medium",
+        "category": "question7",
+        "city": "newyork8"
+    },
+    {
+        "folder": "I want to buy fruits and vegetables",
+        "question_idx": 90,
+        "question": "I want to buy fruits and vegetables and need assistance finding a suitable place nearby. Could you help me?",
+        "idx": 2,
+        "from": "00001648.jpg",
+        "to": "00001834.jpg",
+        "total_weight": 131.30184920774565,
+        "total_steps": 8,
+        "complete_route": [
+            {
+                "filename": "00001648.jpg",
+                "latitude": 40.73993956,
+                "longitude": -73.98780838
+            },
+            {
+                "filename": "00001649.jpg",
+                "latitude": 40.73987602,
+                "longitude": -73.98765914
+            },
+            {
+                "filename": "00001650.jpg",
+                "latitude": 40.73981248,
+                "longitude": -73.9875099
+            },
+            {
+                "filename": "00001651.jpg",
+                "latitude": 40.73974894,
+                "longitude": -73.98736066
+            },
+            {
+                "filename": "00001652.jpg",
+                "latitude": 40.73968541,
+                "longitude": -73.98721142
+            },
+            {
+                "filename": "00001653.jpg",
+                "latitude": 40.73962187,
+                "longitude": -73.98706218
+            },
+            {
+                "filename": "00001654.jpg",
+                "latitude": 40.73955833,
+                "longitude": -73.98691295
+            },
+            {
+                "filename": "00001834.jpg",
+                "latitude": 40.73945724,
+                "longitude": -73.98698659
+            }
+        ],
+        "difficulty": "easy",
+        "category": "question7",
+        "city": "newyork8"
+    },
+    {
+        "folder": "I want to buy fruits and vegetables",
+        "question_idx": 91,
+        "question": "I want to buy fruits and vegetables and need assistance finding a suitable place nearby. Could you help me?",
+        "idx": 0,
+        "from": "00001715.jpg",
+        "to": "00001834.jpg",
+        "total_weight": 125.19313824500117,
+        "total_steps": 9,
+        "complete_route": [
+            {
+                "filename": "00001715.jpg",
+                "latitude": 40.7400564,
+                "longitude": -73.98638258
+            },
+            {
+                "filename": "00001716.jpg",
+                "latitude": 40.73994713,
+                "longitude": -73.9864634
+            },
+            {
+                "filename": "00001717.jpg",
+                "latitude": 40.73983787,
+                "longitude": -73.98654421
+            },
+            {
+                "filename": "00001718.jpg",
+                "latitude": 40.7397286,
+                "longitude": -73.98662503
+            },
+            {
+                "filename": "00001719.jpg",
+                "latitude": 40.73961933,
+                "longitude": -73.98670585
+            },
+            {
+                "filename": "00001720.jpg",
+                "latitude": 40.73951007,
+                "longitude": -73.98678667
+            },
+            {
+                "filename": "00001833.jpg",
+                "latitude": 40.739507,
+                "longitude": -73.98678981
+            },
+            {
+                "filename": "00001654.jpg",
+                "latitude": 40.73955833,
+                "longitude": -73.98691295
+            },
+            {
+                "filename": "00001834.jpg",
+                "latitude": 40.73945724,
+                "longitude": -73.98698659
+            }
+        ],
+        "difficulty": "easy",
+        "category": "question7",
+        "city": "newyork8"
+    },
+    {
+        "folder": "I need to go to the airport",
+        "question_idx": 92,
+        "question": "I need to go to the airport and would like assistance in finding the best way there. Could you help me?",
+        "idx": 4,
+        "from": "00000077.jpg",
+        "to": "00000083.jpg",
+        "total_weight": 106.42461631451614,
+        "total_steps": 7,
+        "complete_route": [
+            {
+                "filename": "00000077.jpg",
+                "latitude": 40.74745921,
+                "longitude": -73.98428172
+            },
+            {
+                "filename": "00000078.jpg",
+                "latitude": 40.74740025,
+                "longitude": -73.98414268
+            },
+            {
+                "filename": "00000079.jpg",
+                "latitude": 40.74734129,
+                "longitude": -73.98400365
+            },
+            {
+                "filename": "00000080.jpg",
+                "latitude": 40.74728232,
+                "longitude": -73.98386461
+            },
+            {
+                "filename": "00000081.jpg",
+                "latitude": 40.74722336,
+                "longitude": -73.98372558
+            },
+            {
+                "filename": "00000082.jpg",
+                "latitude": 40.7471644,
+                "longitude": -73.98358654
+            },
+            {
+                "filename": "00000083.jpg",
+                "latitude": 40.74710543,
+                "longitude": -73.9834475
+            }
+        ],
+        "difficulty": "easy",
+        "category": "question7",
+        "city": "newyork8"
+    },
+    {
+        "folder": "I need to go to the airport",
+        "question_idx": 93,
+        "question": "I need to go to the airport and would like assistance in finding the best way there. Could you help me?",
+        "idx": 1,
+        "from": "00004012.jpg",
+        "to": "00004122.jpg",
+        "total_weight": 139.91671412832437,
+        "total_steps": 10,
+        "complete_route": [
+            {
+                "filename": "00004012.jpg",
+                "latitude": 40.72949038,
+                "longitude": -73.99448768
+            },
+            {
+                "filename": "00004146.jpg",
+                "latitude": 40.72948697,
+                "longitude": -73.99449037
+            },
+            {
+                "filename": "00004073.jpg",
+                "latitude": 40.72940926,
+                "longitude": -73.99455643
+            },
+            {
+                "filename": "00004153.jpg",
+                "latitude": 40.72934475,
+                "longitude": -73.99442273
+            },
+            {
+                "filename": "00004154.jpg",
+                "latitude": 40.72928023,
+                "longitude": -73.99428903
+            },
+            {
+                "filename": "00004155.jpg",
+                "latitude": 40.72921571,
+                "longitude": -73.99415533
+            },
+            {
+                "filename": "00004156.jpg",
+                "latitude": 40.7291512,
+                "longitude": -73.99402163
+            },
+            {
+                "filename": "00004157.jpg",
+                "latitude": 40.72908668,
+                "longitude": -73.99388793
+            },
+            {
+                "filename": "00004123.jpg",
+                "latitude": 40.72902217,
+                "longitude": -73.99375423
+            },
+            {
+                "filename": "00004122.jpg",
+                "latitude": 40.72913592,
+                "longitude": -73.99365737
+            }
+        ],
+        "difficulty": "easy",
+        "category": "question7",
+        "city": "newyork8"
+    },
+    {
+        "folder": "I need to go to the airport",
+        "question_idx": 94,
+        "question": "I need to go to the airport and would like assistance in finding the best way there. Could you help me?",
+        "idx": 19,
+        "from": "00004336.jpg",
+        "to": "00004252.jpg",
+        "total_weight": 159.19257747168044,
+        "total_steps": 13,
+        "complete_route": [
+            {
+                "filename": "00004336.jpg",
+                "latitude": 40.72801261,
+                "longitude": -73.99142391
+            },
+            {
+                "filename": "00004337.jpg",
+                "latitude": 40.72790626,
+                "longitude": -73.99145348
+            },
+            {
+                "filename": "00004448.jpg",
+                "latitude": 40.72786619,
+                "longitude": -73.99135311
+            },
+            {
+                "filename": "00004408.jpg",
+                "latitude": 40.72782612,
+                "longitude": -73.99125274
+            },
+            {
+                "filename": "00004407.jpg",
+                "latitude": 40.72791533,
+                "longitude": -73.99118716
+            },
+            {
+                "filename": "00004406.jpg",
+                "latitude": 40.72800454,
+                "longitude": -73.99112159
+            },
+            {
+                "filename": "00004405.jpg",
+                "latitude": 40.72809375,
+                "longitude": -73.99105602
+            },
+            {
+                "filename": "00004404.jpg",
+                "latitude": 40.72818296,
+                "longitude": -73.99099044
+            },
+            {
+                "filename": "00004394.jpg",
+                "latitude": 40.72818569,
+                "longitude": -73.99098775
+            },
+            {
+                "filename": "00004393.jpg",
+                "latitude": 40.72827784,
+                "longitude": -73.99091743
+            },
+            {
+                "filename": "00004254.jpg",
+                "latitude": 40.72836999,
+                "longitude": -73.99084711
+            },
+            {
+                "filename": "00004253.jpg",
+                "latitude": 40.72844593,
+                "longitude": -73.99078547
+            },
+            {
+                "filename": "00004252.jpg",
+                "latitude": 40.72852187,
+                "longitude": -73.99072383
+            }
+        ],
+        "difficulty": "medium",
+        "category": "question7",
+        "city": "newyork8"
+    },
+    {
+        "folder": "I need to go to the airport",
+        "question_idx": 95,
+        "question": "I need to go to the airport and would like assistance in finding the best way there. Could you help me?",
+        "idx": 6,
+        "from": "00000048.jpg",
+        "to": "00000284.jpg",
+        "total_weight": 337.5314248894026,
+        "total_steps": 19,
+        "complete_route": [
+            {
+                "filename": "00000048.jpg",
+                "latitude": 40.74745374,
+                "longitude": -73.98810262
+            },
+            {
+                "filename": "00000049.jpg",
+                "latitude": 40.74738974,
+                "longitude": -73.98795129
+            },
+            {
+                "filename": "00000050.jpg",
+                "latitude": 40.74732574,
+                "longitude": -73.98779996
+            },
+            {
+                "filename": "00000051.jpg",
+                "latitude": 40.74726173,
+                "longitude": -73.98764863
+            },
+            {
+                "filename": "00000052.jpg",
+                "latitude": 40.74719773,
+                "longitude": -73.9874973
+            },
+            {
+                "filename": "00000053.jpg",
+                "latitude": 40.74713373,
+                "longitude": -73.98734597
+            },
+            {
+                "filename": "00000054.jpg",
+                "latitude": 40.74706972,
+                "longitude": -73.98719464
+            },
+            {
+                "filename": "00000055.jpg",
+                "latitude": 40.74700572,
+                "longitude": -73.98704331
+            },
+            {
+                "filename": "00000056.jpg",
+                "latitude": 40.74694172,
+                "longitude": -73.98689198
+            },
+            {
+                "filename": "00000057.jpg",
+                "latitude": 40.74687771,
+                "longitude": -73.98674065
+            },
+            {
+                "filename": "00000058.jpg",
+                "latitude": 40.74681371,
+                "longitude": -73.98658933
+            },
+            {
+                "filename": "00000059.jpg",
+                "latitude": 40.74674971,
+                "longitude": -73.986438
+            },
+            {
+                "filename": "00000060.jpg",
+                "latitude": 40.74668571,
+                "longitude": -73.98628235
+            },
+            {
+                "filename": "00000061.jpg",
+                "latitude": 40.74662171,
+                "longitude": -73.9861267
+            },
+            {
+                "filename": "00000062.jpg",
+                "latitude": 40.74655771,
+                "longitude": -73.98597105
+            },
+            {
+                "filename": "00000281.jpg",
+                "latitude": 40.74646231,
+                "longitude": -73.98603601
+            },
+            {
+                "filename": "00000282.jpg",
+                "latitude": 40.74636692,
+                "longitude": -73.98610098
+            },
+            {
+                "filename": "00000283.jpg",
+                "latitude": 40.74627152,
+                "longitude": -73.98616594
+            },
+            {
+                "filename": "00000284.jpg",
+                "latitude": 40.74615998,
+                "longitude": -73.98624951
+            }
+        ],
+        "difficulty": "hard",
+        "category": "question7",
+        "city": "newyork8"
+    },
+    {
+        "folder": "I want to find a place to work with Wi-Fi",
+        "question_idx": 96,
+        "question": "I want to work with Wi-Fi and need assistance finding a suitable place nearby. Could you help me?",
+        "idx": 16,
+        "from": "00004324.jpg",
+        "to": "00004397.jpg",
+        "total_weight": 151.76818521657177,
+        "total_steps": 10,
+        "complete_route": [
+            {
+                "filename": "00004324.jpg",
+                "latitude": 40.72835525,
+                "longitude": -73.99005981
+            },
+            {
+                "filename": "00004325.jpg",
+                "latitude": 40.72823758,
+                "longitude": -73.9901436
+            },
+            {
+                "filename": "00004326.jpg",
+                "latitude": 40.72811992,
+                "longitude": -73.99022739
+            },
+            {
+                "filename": "00004403.jpg",
+                "latitude": 40.72817398,
+                "longitude": -73.99035559
+            },
+            {
+                "filename": "00004402.jpg",
+                "latitude": 40.72822803,
+                "longitude": -73.99048379
+            },
+            {
+                "filename": "00004401.jpg",
+                "latitude": 40.72828209,
+                "longitude": -73.990612
+            },
+            {
+                "filename": "00004271.jpg",
+                "latitude": 40.72833615,
+                "longitude": -73.9907402
+            },
+            {
+                "filename": "00004395.jpg",
+                "latitude": 40.72824226,
+                "longitude": -73.99080796
+            },
+            {
+                "filename": "00004396.jpg",
+                "latitude": 40.72814837,
+                "longitude": -73.99087572
+            },
+            {
+                "filename": "00004397.jpg",
+                "latitude": 40.72805448,
+                "longitude": -73.99094347
+            }
+        ],
+        "difficulty": "easy",
+        "category": "question7",
+        "city": "newyork8"
+    },
+    {
+        "folder": "I want to find a place to work with Wi-Fi",
+        "question_idx": 97,
+        "question": "I want to work with Wi-Fi and need assistance finding a suitable place nearby. Could you help me?",
+        "idx": 5,
+        "from": "00002873.jpg",
+        "to": "00003286.jpg",
+        "total_weight": 113.33072615771684,
+        "total_steps": 8,
+        "complete_route": [
+            {
+                "filename": "00002873.jpg",
+                "latitude": 40.73383974,
+                "longitude": -73.98075716
+            },
+            {
+                "filename": "00003133.jpg",
+                "latitude": 40.73377534,
+                "longitude": -73.9808276
+            },
+            {
+                "filename": "00003139.jpg",
+                "latitude": 40.73366553,
+                "longitude": -73.98091679
+            },
+            {
+                "filename": "00003146.jpg",
+                "latitude": 40.73355908,
+                "longitude": -73.9809072
+            },
+            {
+                "filename": "00003147.jpg",
+                "latitude": 40.73345262,
+                "longitude": -73.98089761
+            },
+            {
+                "filename": "00003148.jpg",
+                "latitude": 40.73334616,
+                "longitude": -73.98088802
+            },
+            {
+                "filename": "00003245.jpg",
+                "latitude": 40.73324816,
+                "longitude": -73.98096023
+            },
+            {
+                "filename": "00003286.jpg",
+                "latitude": 40.73313807,
+                "longitude": -73.98104247
+            }
+        ],
+        "difficulty": "easy",
+        "category": "question7",
+        "city": "newyork8"
+    },
+    {
+        "folder": "I want to find a place to work with Wi-Fi",
+        "question_idx": 98,
+        "question": "I want to work with Wi-Fi and need assistance finding a suitable place nearby. Could you help me?",
+        "idx": 0,
+        "from": "00001209.jpg",
+        "to": "00001221.jpg",
+        "total_weight": 211.85775122049415,
+        "total_steps": 12,
+        "complete_route": [
+            {
+                "filename": "00001209.jpg",
+                "latitude": 40.74159869,
+                "longitude": -73.9917597
+            },
+            {
+                "filename": "00001208.jpg",
+                "latitude": 40.74166287,
+                "longitude": -73.99191246
+            },
+            {
+                "filename": "00001207.jpg",
+                "latitude": 40.74172706,
+                "longitude": -73.99206522
+            },
+            {
+                "filename": "00001206.jpg",
+                "latitude": 40.74179125,
+                "longitude": -73.99221799
+            },
+            {
+                "filename": "00001205.jpg",
+                "latitude": 40.74185544,
+                "longitude": -73.99237075
+            },
+            {
+                "filename": "00001204.jpg",
+                "latitude": 40.74191962,
+                "longitude": -73.99252352
+            },
+            {
+                "filename": "00001203.jpg",
+                "latitude": 40.74198381,
+                "longitude": -73.99267628
+            },
+            {
+                "filename": "00001202.jpg",
+                "latitude": 40.742048,
+                "longitude": -73.99282905
+            },
+            {
+                "filename": "00001201.jpg",
+                "latitude": 40.74211218,
+                "longitude": -73.99298181
+            },
+            {
+                "filename": "00001200.jpg",
+                "latitude": 40.74217637,
+                "longitude": -73.99313457
+            },
+            {
+                "filename": "00000995.jpg",
+                "latitude": 40.74224056,
+                "longitude": -73.99328734
+            },
+            {
+                "filename": "00001221.jpg",
+                "latitude": 40.74214022,
+                "longitude": -73.9933704
+            }
+        ],
+        "difficulty": "medium",
+        "category": "question7",
+        "city": "newyork8"
+    },
+    {
+        "folder": "I want to rest and read",
+        "question_idx": 99,
+        "question": "I want to rest and read and need help finding a suitable place nearby. Could you assist me?",
+        "idx": 2,
+        "from": "00002722.jpg",
+        "to": "00002711.jpg",
+        "total_weight": 145.5233150757868,
+        "total_steps": 9,
+        "complete_route": [
+            {
+                "filename": "00002722.jpg",
+                "latitude": 40.73500709,
+                "longitude": -73.99436039
+            },
+            {
+                "filename": "00002721.jpg",
+                "latitude": 40.73511459,
+                "longitude": -73.99428256
+            },
+            {
+                "filename": "00002720.jpg",
+                "latitude": 40.73522209,
+                "longitude": -73.99420472
+            },
+            {
+                "filename": "00002532.jpg",
+                "latitude": 40.73532959,
+                "longitude": -73.99412688
+            },
+            {
+                "filename": "00002707.jpg",
+                "latitude": 40.73526921,
+                "longitude": -73.99398313
+            },
+            {
+                "filename": "00002708.jpg",
+                "latitude": 40.73520884,
+                "longitude": -73.99383937
+            },
+            {
+                "filename": "00002709.jpg",
+                "latitude": 40.73514846,
+                "longitude": -73.99369562
+            },
+            {
+                "filename": "00002710.jpg",
+                "latitude": 40.73508808,
+                "longitude": -73.99355186
+            },
+            {
+                "filename": "00002711.jpg",
+                "latitude": 40.73502771,
+                "longitude": -73.99340811
+            }
+        ],
+        "difficulty": "easy",
+        "category": "question7",
+        "city": "newyork8"
+    },
+    {
+        "folder": "I want to rest and read",
+        "question_idx": 100,
+        "question": "I want to rest and read and need help finding a suitable place nearby. Could you assist me?",
+        "idx": 14,
+        "from": "00003075.jpg",
+        "to": "00002954.jpg",
+        "total_weight": 166.4645120930902,
+        "total_steps": 10,
+        "complete_route": [
+            {
+                "filename": "00003075.jpg",
+                "latitude": 40.73391138,
+                "longitude": -73.98485253
+            },
+            {
+                "filename": "00002962.jpg",
+                "latitude": 40.73401788,
+                "longitude": -73.98477496
+            },
+            {
+                "filename": "00002961.jpg",
+                "latitude": 40.73407949,
+                "longitude": -73.98492067
+            },
+            {
+                "filename": "00002960.jpg",
+                "latitude": 40.73414109,
+                "longitude": -73.98506638
+            },
+            {
+                "filename": "00002959.jpg",
+                "latitude": 40.7342027,
+                "longitude": -73.98521208
+            },
+            {
+                "filename": "00002958.jpg",
+                "latitude": 40.7342643,
+                "longitude": -73.98535779
+            },
+            {
+                "filename": "00002957.jpg",
+                "latitude": 40.73432591,
+                "longitude": -73.9855035
+            },
+            {
+                "filename": "00002956.jpg",
+                "latitude": 40.73438752,
+                "longitude": -73.98564921
+            },
+            {
+                "filename": "00002955.jpg",
+                "latitude": 40.73444912,
+                "longitude": -73.98579492
+            },
+            {
+                "filename": "00002954.jpg",
+                "latitude": 40.73451073,
+                "longitude": -73.98594062
+            }
+        ],
+        "difficulty": "easy",
+        "category": "question7",
+        "city": "newyork8"
+    },
+    {
+        "folder": "I want to rest and read",
+        "question_idx": 101,
+        "question": "I want to rest and read and need help finding a suitable place nearby. Could you assist me?",
+        "idx": 16,
+        "from": "00002186.jpg",
+        "to": "00002462.jpg",
+        "total_weight": 181.45078846993533,
+        "total_steps": 12,
+        "complete_route": [
+            {
+                "filename": "00002186.jpg",
+                "latitude": 40.73728009,
+                "longitude": -73.98888379
+            },
+            {
+                "filename": "00002187.jpg",
+                "latitude": 40.73723156,
+                "longitude": -73.98876273
+            },
+            {
+                "filename": "00002188.jpg",
+                "latitude": 40.73718303,
+                "longitude": -73.98864167
+            },
+            {
+                "filename": "00002295.jpg",
+                "latitude": 40.73708294,
+                "longitude": -73.98871403
+            },
+            {
+                "filename": "00002296.jpg",
+                "latitude": 40.73698285,
+                "longitude": -73.9887864
+            },
+            {
+                "filename": "00002297.jpg",
+                "latitude": 40.73688276,
+                "longitude": -73.98885876
+            },
+            {
+                "filename": "00002298.jpg",
+                "latitude": 40.73678267,
+                "longitude": -73.98893113
+            },
+            {
+                "filename": "00002299.jpg",
+                "latitude": 40.73668258,
+                "longitude": -73.9890035
+            },
+            {
+                "filename": "00002300.jpg",
+                "latitude": 40.73658249,
+                "longitude": -73.98907586
+            },
+            {
+                "filename": "00002408.jpg",
+                "latitude": 40.73649198,
+                "longitude": -73.98913476
+            },
+            {
+                "filename": "00002461.jpg",
+                "latitude": 40.73638681,
+                "longitude": -73.98921354
+            },
+            {
+                "filename": "00002462.jpg",
+                "latitude": 40.73628164,
+                "longitude": -73.98929232
+            }
+        ],
+        "difficulty": "medium",
+        "category": "question7",
+        "city": "newyork8"
+    },
+    {
+        "folder": "I want to rest and read",
+        "question_idx": 102,
+        "question": "I want to rest and read and need help finding a suitable place nearby. Could you assist me?",
+        "idx": 3,
+        "from": "00001502.jpg",
+        "to": "00001411.jpg",
+        "total_weight": 152.55921362786188,
+        "total_steps": 21,
+        "complete_route": [
+            {
+                "filename": "00001502.jpg",
+                "latitude": 40.74107637,
+                "longitude": -73.98804387
+            },
+            {
+                "filename": "00001501.jpg",
+                "latitude": 40.74111562,
+                "longitude": -73.98804296
+            },
+            {
+                "filename": "00001500.jpg",
+                "latitude": 40.74114317,
+                "longitude": -73.98804876
+            },
+            {
+                "filename": "00001499.jpg",
+                "latitude": 40.74119694,
+                "longitude": -73.98807481
+            },
+            {
+                "filename": "00001498.jpg",
+                "latitude": 40.74126235,
+                "longitude": -73.98811855
+            },
+            {
+                "filename": "00001497.jpg",
+                "latitude": 40.74132776,
+                "longitude": -73.98816229
+            },
+            {
+                "filename": "00001496.jpg",
+                "latitude": 40.74133005,
+                "longitude": -73.9881706
+            },
+            {
+                "filename": "00001495.jpg",
+                "latitude": 40.74130935,
+                "longitude": -73.98827539
+            },
+            {
+                "filename": "00001494.jpg",
+                "latitude": 40.74130567,
+                "longitude": -73.98834925
+            },
+            {
+                "filename": "00001493.jpg",
+                "latitude": 40.74131282,
+                "longitude": -73.98841397
+            },
+            {
+                "filename": "00001492.jpg",
+                "latitude": 40.74133511,
+                "longitude": -73.98849699
+            },
+            {
+                "filename": "00001491.jpg",
+                "latitude": 40.74137024,
+                "longitude": -73.98856841
+            },
+            {
+                "filename": "00001490.jpg",
+                "latitude": 40.74140159,
+                "longitude": -73.98861434
+            },
+            {
+                "filename": "00001489.jpg",
+                "latitude": 40.74145107,
+                "longitude": -73.98867193
+            },
+            {
+                "filename": "00001341.jpg",
+                "latitude": 40.74153645,
+                "longitude": -73.98873659
+            },
+            {
+                "filename": "00001416.jpg",
+                "latitude": 40.74149329,
+                "longitude": -73.9887478
+            },
+            {
+                "filename": "00001415.jpg",
+                "latitude": 40.74147621,
+                "longitude": -73.98875993
+            },
+            {
+                "filename": "00001414.jpg",
+                "latitude": 40.74145251,
+                "longitude": -73.98879907
+            },
+            {
+                "filename": "00001413.jpg",
+                "latitude": 40.74144046,
+                "longitude": -73.98885804
+            },
+            {
+                "filename": "00001412.jpg",
+                "latitude": 40.74144344,
+                "longitude": -73.98891629
+            },
+            {
+                "filename": "00001411.jpg",
+                "latitude": 40.74145574,
+                "longitude": -73.98896448
+            }
+        ],
+        "difficulty": "hard",
+        "category": "question7",
+        "city": "newyork8"
+    }
+]
