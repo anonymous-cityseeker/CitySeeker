@@ -1,7 +1,7 @@
 <div align="center">
   <h1>CitySeeker: A VLM Benchmark for Implicit Requests in Embodied Urban Navigation</h1>
 <img src="assets/4.png" width="93%"/>  
-  
+The CitySeeker Implicit-Requested Emobodied Urban Navigation Framework. 
 </div>
 
 
@@ -12,7 +12,6 @@
 - **Extensive exploratory experiments** identifying key bottlenecks in VLMs’ spatial reasoning and providing actionable insights for spatial intelligence.  
 <p align="center">
 <img src="assets/1.png" width="50%"/>
-<h2> The CitySeeker Implicit-Requested Emobodied Urban Navigation Framework.<h2>
 </p>
 
 
