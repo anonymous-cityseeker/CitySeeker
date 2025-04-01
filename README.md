@@ -81,8 +81,8 @@ Three strategies to mitigate error accumulation in long trajectories:
 
 
 ### 🧠 **Memory-Based Retrieval**  
-1. **Topology-based (R1)**
-2. **Spatial-based (R2)**
+1. **Topology-based Retrieval(R1)**
+2. **Spatial-based Retrieval(R2)**
 3. **Historical Trajectory Lookup (R3)**
 
 Each component supports different aspects of memory retrieval across multiple reasoning iterations, mitigating error propagation during navigation tasks.
