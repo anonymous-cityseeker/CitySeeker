@@ -80,6 +80,45 @@ agent.navigate(instruction="Find a quiet café with outdoor seating near a park"
 ```
 、
 
+
+
+🧠 Backtracking Mechanisms
+We propose three distinct backtracking strategies to mitigate error accumulation over long trajectories in large-scale Vision-and-Language Navigation (VLN) tasks in urban environments:
+
+(B1) Basic Backtracking
+
+(B2) Step-Reward Backtracking
+
+(B3) Human-Guided Backtracking
+
+(B1) Basic Backtracking
+In this basic backtracking strategy, the agent reverts to the last "trusted" node when its internal confidence falls below a predefined threshold.
+
+(B2) Step-Reward Backtracking
+This mechanism evaluates progress toward the goal by replacing subjective confidence scores with objective topological distance as the backtracking criterion.
+
+(B3) Human-Guided Backtracking
+This strategy extends basic backtracking B1 with corrective guidance, providing minimal external "hint" that suggests the best action to take next after backtracking.
+
+🌍 Enriching Spatial Cognition
+Topology Cognitive Graph (C1)
+In this approach, the VLM is provided with a topological graph of recently traversed segments, which explicitly defines the connectivity between various locations.
+
+Relative Position Maps (C2)
+In contrast, this approach emphasizes the spatial orientation of locations without directly specifying connectivity.
+
+📚 Memory-Based Retrieval
+We introduce a memory-based retrieval mechanism based on the Neo4j graph database. This mechanism consists of:
+
+R1 Topology-based Retrieval
+
+R2 Spatial-based Retrieval
+
+R3 Historical Trajectory Lookup
+
+Each component supports different aspects of memory retrieval across multiple reasoning iterations, mitigating error propagation during navigation tasks.
+
+
 ---
 
 ## 🌐 License  
