@@ -1,19 +1,16 @@
 <div align="center">
   <h1>CitySeeker: A VLM Benchmark for Implicit Requests in Embodied Urban Navigation</h1>
 <img src="assets/4.png" width="93%"/>  
-  
 </div>
-
-
 
 ## ✨ Highlights  
 - **CitySeeker pioneers the first language-guided embodied urban navigation** with implicit requests in multi-city settings, incorporating real-world visual diversity, long-horizon planning, and unstructured instructions.  
 - **VLM-based cognitive mapping framework** that translates implicit requests into multi-step plans through iterative observation-reasoning cycles.  
-- **Extensive exploratory experiments** identifying key bottlenecks in VLMs’ spatial reasoning and providing actionable insights for spatial intelligence.  
+- **Extensive exploratory experiments** identifying key bottlenecks in VLMs' spatial reasoning and providing actionable insights for spatial intelligence.  
+
 <p align="center">
 <img src="assets/1.png" width="50%"/>
 </p>
-
 
 ## 📊 Dataset Overview  
 
@@ -30,7 +27,17 @@
 | Touchdown     | explicit             | 9,326             | Outdoor               | Street View              | 1         | 29,641     | 35.2           | 89.6          |  
 | **CitySeeker**| **implicit**         | **6,440**         | **Outdoor+dynamic**   | **Street View + Map**    | **8**     | **41,128** | **18.3**       | **11.11**     |  
 
----
+## 🗂️ Instruction Categories
+
+| **Category**                     | **Description**                                      | **Example**                                                                 |
+|----------------------------------|------------------------------------------------------|-----------------------------------------------------------------------------|
+| **1. Basic POI Navigation**      | Request common urban facilities                      | "Please find the nearest hotel."                                           |
+| **2. Brand-Specific Navigation** | Seek specific commercial brand locations             | "Please find the nearest Starbucks."                                       |
+| **3. Transportation Hub Navigation** | Ask for public transit locations                 | "Please find the nearest bus station."                                     |
+| **4. Latent POI Navigation**     | Indirectly observable targets requiring reasoning    | "Please find the nearest restroom."                                        |
+| **5. Implicit Need Navigation**  | Express abstract human needs through context         | "I'm thirsty and would like something to drink. Help me find a nearby place." |
+| **6. Inclusive Infrastructure Navigation** | Prioritize accessible infrastructure        | "Please find the nearest bank with an accessible entrance."                |
+| **7. Semantic Preference Navigation** | Use descriptive language for subjective criteria | "Please find the nearest romantic restaurant."                             |
 
 ## 🏆 Benchmark Results  
 
@@ -46,56 +53,47 @@
 
 *(Full results in paper)*  
 
----
-
 ## 🔍 Key Innovations  
 
 ### 🔄 **Backtracking Mechanisms**  
 Three strategies to mitigate error accumulation in long trajectories:  
-1. **Basic Backtracking (B1)**: In this basic backtracking strategy, the agent reverts to the last "trusted" node when its internal confidence falls below a predefined threshold.  
-2. **Step-Reward Backtracking (B2)**: This mechanism evaluates progress toward the goal by replacing subjective confidence scores with objective topological distance as the backtracking criterion.  
-3. **Human-Guided Backtracking (B3)**: This strategy extends basic backtracking B1 with corrective guidance, providing minimal external "hint" that suggests the best action to take next after backtracking.  
+1. **Basic Backtracking (B1)**: Reverts to last "trusted" node when confidence drops below threshold.  
+2. **Step-Reward Backtracking (B2)**: Uses topological distance to evaluate progress.  
+3. **Human-Guided Backtracking (B3)**: Integrates corrective hints for optimal path alignment.  
+
 <p align="center">
 <img src="assets/b1.png" width="95%"/>
 </p>
 
-
 ### 🗺️ **Enriching Spatial Cognition**  
-- **Topology Cognitive Graph (C1)**: In this approach, the VLM is provided with a topological graph of recently traversed segments, which explicitly defines the connectivity between various locations.
-- **Relative Position Maps (C2)**: In contrast, this approach emphasizes the spatial orientation of locations without directly specifying connectivity. 
+- **Topology Cognitive Graph (C1)**: Explicit connectivity for structured navigation.  
+- **Relative Position Maps (C2)**: Intuitive directional cues for flexible navigation.  
+
 <p align="center">
 <img src="assets/c1.png" width="95%"/>
 </p>
 
-
 ### 🧠 **Memory-Based Retrieval**  
-1. **Topology-based (R1)**
-2. **Spatial-based (R2)**
-3. **Historical Trajectory Lookup (R3)**
-Each component supports different aspects of memory retrieval across multiple reasoning iterations, mitigating error propagation during navigation tasks.
+1. **Topology-based (R1)**: Prioritizes frequently successful paths.  
+2. **Spatial-based (R2)**: Retrieves nodes within 100m radius.  
+3. **Historical Trajectory Lookup (R3)**: Short-term memory for consistency.  
+
 <p align="center">
 <img src="assets/r1.png" width="95%"/>
 </p>
 
-
 ## 📥 Data & Usage  
-**Download**: 
-The **raw image and topological graph data** is available for download from **[Baidu Netdisk](https://pan.baidu.com/s/1Szh9Duj6SFsapz9PsBPp8g?pwd=ni3n)**
 
+### Human Evaluation
+We welcome community participation in human testing! Evaluation code and interfaces are available in the `website/` folder.
 
-
----
+### Dataset Access
+- **Raw image & topological data**: [Baidu Netdisk](https://pan.baidu.com/s/1HS3HL-uSUdxb69rmAOi0bw?pwd=2vjj)
+- **Example trajectories**: See `example/` folder for real navigation paths
 
 ## 🌐 License  
 This project is open-sourced under **MIT License**.  
 *Data for research use only. Commercial use requires permission.*  
-
---- 
-
-Let me know if you'd like any modifications! The README now aligns with your paper's focus on **implicit urban navigation** and highlights the key innovations clearly.
-
-For LLM-based planning and operations, the dataset complements the IndustryScopeGPT framework, providing a dynamic and insightful environment for urban and industrial research.
-
 
 
 
