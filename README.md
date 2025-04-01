@@ -94,7 +94,7 @@ Each component supports different aspects of memory retrieval across multiple re
 ### Human Evaluation
 We welcome community participation in human testing! Evaluation code and interfaces are available in the `website/` folder.
 <p align="center">
-<img src="assets/website.png" width="95%"/>
+<img src="assets/website.png" width="100%"/>
 </p>
 
 
