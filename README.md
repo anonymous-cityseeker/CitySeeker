@@ -1,3 +1,100 @@
+Here’s the revised README for **CitySeeker** based on your provided content:
+
+---
+
+<div align="center">
+  <h1>CitySeeker: A VLM Benchmark for Implicit Requests in Embodied Urban Navigation</h1>
+</div>
+
+---
+
+## ✨ Highlights  
+- **CitySeeker pioneers the first language-guided embodied urban navigation** with implicit requests in multi-city settings, incorporating real-world visual diversity, long-horizon planning, and unstructured instructions.  
+- **VLM-based cognitive mapping framework** that translates implicit requests into multi-step plans through iterative observation-reasoning cycles.  
+- **Extensive exploratory experiments** identifying key bottlenecks in VLMs’ spatial reasoning and providing actionable insights for spatial intelligence.  
+
+---
+
+## 📊 Dataset Overview  
+
+**CitySeeker** is the first benchmark for **implicit request-based navigation** in dynamic urban environments, covering **8 cities** with **41,128 nodes** and **6,440 instructions**.  
+
+| **Dataset**   | **Instruction Type** | **#Instructions** | **Environment**       | **Source**               | **#City** | **#Nodes** | **Avg.Length** | **Avg.Token** |  
+|---------------|----------------------|-------------------|-----------------------|--------------------------|-----------|------------|----------------|---------------|  
+| Talk the Walk | explicit             | 786               | GridWorld             | 3D Rendering             | 1         | 100        | 6.8            | 34.5          |  
+| Room-to-Room  | explicit             | 21,567            | Indoor                | Panoramas                | 1         | 10,800     | 6.0            | 29.0          |  
+| Touchdown     | explicit             | 9,326             | Outdoor               | Street View              | 1         | 29,641     | 35.2           | 89.6          |  
+| **CitySeeker**| **implicit**         | **6,440**         | **Outdoor+dynamic**   | **Street View + Map**    | **8**     | **41,128** | **18.3**       | **11.11**     |  
+
+---
+
+## 🏆 Benchmark Results  
+
+**Key Metrics**:  
+- **TCE (Task Completion Error)**, **TCP (Task Completion Precision)**, **TCC (Task Completion Consistency)**  
+- **SPD (Shortest Path Distance)**, **nDTW (Normalized Dynamic Time Warping)**  
+
+| **Model**          | **TCE**  | **TCP**  | **TCC**  | **SPD**  | **nDTW** |  
+|--------------------|----------|----------|----------|----------|----------|  
+| **GPT-4o**         | 2.39%    | 18.30%   | 6.84%    | 125.40   | 136.97   |  
+| **Gemini-1.5-pro** | 1.91%    | 15.43%   | 7.48%    | 157.14   | 241.86   |  
+| **InternVL2.5-38B**| 2.23%    | 18.14%   | 7.16%    | 136.55   | 169.18   |  
+
+*(Full results in table below)*  
+
+---
+
+## 🔍 Key Innovations  
+
+### 🔄 **Backtracking Mechanisms**  
+Three strategies to mitigate error accumulation in long trajectories:  
+1. **Basic Backtracking (B1)**: Reverts to last "trusted" node when confidence drops below threshold.  
+2. **Step-Reward Backtracking (B2)**: Uses topological distance to evaluate progress.  
+3. **Human-Guided Backtracking (B3)**: Integrates corrective hints for optimal path alignment.  
+
+### 🗺️ **Enriching Spatial Cognition**  
+- **Topology Cognitive Graph (C1)**: Explicit connectivity for structured navigation.  
+- **Relative Position Maps (C2)**: Intuitive directional cues for flexible navigation.  
+
+### 🧠 **Memory-Based Retrieval**  
+1. **Topology-based (R1)**: Prioritizes frequently successful paths.  
+2. **Spatial-based (R2)**: Retrieves nodes within 100m radius for local awareness.  
+3. **Historical Trajectory Lookup (R3)**: Short-term memory for intra-episode consistency.  
+
+---
+
+## 📥 Data & Usage  
+**Download**: [Dataset Link](#) | **License**: CC-BY 4.0  
+**Setup**:  
+```bash
+git clone https://github.com/your-repo/cityseeker.git
+cd cityseeker
+pip install -r requirements.txt
+```
+
+**Example Query**:  
+```python
+from cityseeker import Navigator
+agent = Navigator(model="gpt-4o")
+agent.navigate(instruction="Find a quiet café with outdoor seating near a park")
+```
+、
+
+---
+
+## 🌐 License  
+This project is open-sourced under **MIT License**.  
+*Data for research use only. Commercial use requires permission.*  
+
+--- 
+
+Let me know if you'd like any modifications! The README now aligns with your paper's focus on **implicit urban navigation** and highlights the key innovations clearly.
+
+
+
+
+
+
 <div align="center" style="font-family: charter;">
   <h1>Decoding Urban Industrial Complexity:<br>Enhancing Knowledge-Driven Insights via IndustryScopeGPT</h1>
 
