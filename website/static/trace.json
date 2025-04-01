@@ -1,0 +1,1205 @@
+[
+    {
+        "question_idx": 1,
+        "timesteps": [
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 210,
+                "timestamp": "2025-01-03T09:45:31.264Z"
+            },
+            {
+                "step_idx": 2,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000002.jpg",
+                "stay_duration": 4526,
+                "timestamp": "2025-01-03T09:45:35.790Z"
+            },
+            {
+                "step_idx": 3,
+                "start_image_id": "00000002.jpg",
+                "clicked_image_id": "00000003.jpg",
+                "stay_duration": 2506,
+                "timestamp": "2025-01-03T09:45:38.297Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000006.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 2087,
+                "timestamp": "2025-01-03T10:19:25.615Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000005.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 2004,
+                "timestamp": "2025-01-03T10:19:36.278Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000002.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 10993,
+                "timestamp": "2025-01-03T10:20:21.320Z"
+            },
+            {
+                "step_idx": 2,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000002.jpg",
+                "stay_duration": 5127,
+                "timestamp": "2025-01-03T10:20:26.447Z"
+            },
+            {
+                "step_idx": 3,
+                "start_image_id": "00000002.jpg",
+                "clicked_image_id": "00000003.jpg",
+                "stay_duration": 4138,
+                "timestamp": "2025-01-03T10:20:30.586Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000006.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 4900,
+                "timestamp": "2025-01-03T10:21:02.165Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 103,
+                "timestamp": "2025-01-03T10:28:10.962Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 103,
+                "timestamp": "2025-01-03T10:29:06.288Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 100,
+                "timestamp": "2025-01-03T10:29:35.173Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 101,
+                "timestamp": "2025-01-03T10:29:52.370Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 102,
+                "timestamp": "2025-01-03T10:30:12.203Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 107,
+                "timestamp": "2025-01-03T10:30:20.154Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 120,
+                "timestamp": "2025-01-03T10:31:01.594Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 101,
+                "timestamp": "2025-01-03T10:31:11.152Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 104,
+                "timestamp": "2025-01-03T10:31:31.240Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 101,
+                "timestamp": "2025-01-03T10:31:44.127Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 100,
+                "timestamp": "2025-01-03T10:31:57.148Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 102,
+                "timestamp": "2025-01-03T10:32:14.251Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 100,
+                "timestamp": "2025-01-03T10:32:22.677Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 129,
+                "timestamp": "2025-01-03T10:34:41.360Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 104,
+                "timestamp": "2025-01-03T10:35:03.115Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 103,
+                "timestamp": "2025-01-03T10:35:13.068Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 101,
+                "timestamp": "2025-01-03T10:35:22.653Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 105,
+                "timestamp": "2025-01-03T10:35:31.069Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 112,
+                "timestamp": "2025-01-03T10:36:03.555Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 103,
+                "timestamp": "2025-01-03T10:36:18.599Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 100,
+                "timestamp": "2025-01-03T10:36:36.166Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 100,
+                "timestamp": "2025-01-03T10:36:46.834Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 103,
+                "timestamp": "2025-01-03T10:36:57.708Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 101,
+                "timestamp": "2025-01-03T10:37:06.105Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 105,
+                "timestamp": "2025-01-03T10:37:14.394Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 101,
+                "timestamp": "2025-01-03T10:37:23.684Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 109,
+                "timestamp": "2025-01-03T10:37:47.095Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 106,
+                "timestamp": "2025-01-03T10:37:54.297Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 114,
+                "timestamp": "2025-01-03T10:38:22.837Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 122,
+                "timestamp": "2025-01-03T10:40:56.548Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 104,
+                "timestamp": "2025-01-03T10:41:02.333Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 117,
+                "timestamp": "2025-01-03T10:42:48.043Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 101,
+                "timestamp": "2025-01-03T10:43:07.685Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 110,
+                "timestamp": "2025-01-03T10:44:07.102Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 109,
+                "timestamp": "2025-01-03T10:48:49.984Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 118,
+                "timestamp": "2025-01-03T10:50:51.813Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 100,
+                "timestamp": "2025-01-03T10:51:00.469Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 108,
+                "timestamp": "2025-01-03T10:52:12.976Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 101,
+                "timestamp": "2025-01-03T10:53:17.014Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 689,
+                "timestamp": "2025-01-03T10:53:45.655Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 113,
+                "timestamp": "2025-01-03T10:57:22.257Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 101,
+                "timestamp": "2025-01-03T10:57:57.194Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 102,
+                "timestamp": "2025-01-03T10:58:20.009Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 105,
+                "timestamp": "2025-01-03T11:00:28.664Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 100,
+                "timestamp": "2025-01-03T11:00:52.509Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 101,
+                "timestamp": "2025-01-03T11:02:18.997Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 107,
+                "timestamp": "2025-01-03T11:02:46.889Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 105,
+                "timestamp": "2025-01-03T11:03:11.728Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 101,
+                "timestamp": "2025-01-03T11:04:38.848Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 100,
+                "timestamp": "2025-01-03T11:05:08.772Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 101,
+                "timestamp": "2025-01-03T11:05:32.824Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 127,
+                "timestamp": "2025-01-03T11:10:16.992Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 101,
+                "timestamp": "2025-01-03T11:10:59.323Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 118,
+                "timestamp": "2025-01-03T11:11:55.538Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 101,
+                "timestamp": "2025-01-03T11:12:19.426Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 100,
+                "timestamp": "2025-01-03T11:12:35.662Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 103,
+                "timestamp": "2025-01-03T11:13:20.381Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 104,
+                "timestamp": "2025-01-03T11:13:23.565Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000005.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 1861,
+                "timestamp": "2025-01-03T11:13:32.850Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 101,
+                "timestamp": "2025-01-03T11:13:40.540Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 106,
+                "timestamp": "2025-01-03T11:14:50.318Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 130,
+                "timestamp": "2025-01-03T11:15:07.154Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 101,
+                "timestamp": "2025-01-03T11:15:17.361Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 100,
+                "timestamp": "2025-01-03T11:15:28.955Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 103,
+                "timestamp": "2025-01-03T11:15:36.188Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 134,
+                "timestamp": "2025-01-03T11:18:28.019Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 108,
+                "timestamp": "2025-01-03T11:19:20.400Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 116,
+                "timestamp": "2025-01-03T11:21:04.176Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 104,
+                "timestamp": "2025-01-03T11:21:37.425Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 124,
+                "timestamp": "2025-01-03T11:22:49.261Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 100,
+                "timestamp": "2025-01-03T11:23:36.363Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 129,
+                "timestamp": "2025-01-03T11:24:12.412Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 105,
+                "timestamp": "2025-01-03T11:24:28.477Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 103,
+                "timestamp": "2025-01-03T11:24:40.025Z"
+            },
+            {
+                "step_idx": 2,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000002.jpg",
+                "stay_duration": 8448,
+                "timestamp": "2025-01-03T11:24:48.473Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 102,
+                "timestamp": "2025-01-03T11:26:52.244Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 111,
+                "timestamp": "2025-01-03T11:32:50.467Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 106,
+                "timestamp": "2025-01-03T11:33:22.566Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 115,
+                "timestamp": "2025-01-03T11:33:46.403Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000005.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 3689,
+                "timestamp": "2025-01-03T11:34:10.628Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 100,
+                "timestamp": "2025-01-03T11:34:19.294Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000005.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 1874,
+                "timestamp": "2025-01-03T11:34:23.342Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000005.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 1778,
+                "timestamp": "2025-01-03T11:34:33.198Z"
+            },
+            {
+                "step_idx": 2,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000002.jpg",
+                "stay_duration": 3824,
+                "timestamp": "2025-01-03T11:34:37.022Z"
+            },
+            {
+                "step_idx": 3,
+                "start_image_id": "00000002.jpg",
+                "clicked_image_id": "00000003.jpg",
+                "stay_duration": 563,
+                "timestamp": "2025-01-03T11:34:37.585Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 103,
+                "timestamp": "2025-01-03T11:34:51.120Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 109,
+                "timestamp": "2025-01-03T11:35:54.810Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 101,
+                "timestamp": "2025-01-03T11:36:12.033Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 101,
+                "timestamp": "2025-01-03T11:36:38.697Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 106,
+                "timestamp": "2025-01-03T11:36:55.255Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000005.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 1867,
+                "timestamp": "2025-01-03T11:37:01.580Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 130,
+                "timestamp": "2025-01-03T11:44:44.086Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000003.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 15492,
+                "timestamp": "2025-01-03T11:45:49.401Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 103,
+                "timestamp": "2025-01-03T11:46:37.085Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 140,
+                "timestamp": "2025-01-06T13:01:18.435Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 770,
+                "timestamp": "2025-01-07T13:42:10.976Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 148,
+                "timestamp": "2025-01-09T05:42:56.450Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000002.jpg",
+                "clicked_image_id": "00000003.jpg",
+                "stay_duration": 4290,
+                "timestamp": "2025-01-09T05:43:40.378Z"
+            },
+            {
+                "step_idx": 2,
+                "start_image_id": "00000003.jpg",
+                "clicked_image_id": "00000002.jpg",
+                "stay_duration": 679,
+                "timestamp": "2025-01-09T05:43:41.057Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000003.jpg",
+                "clicked_image_id": "00000001.jpg",
+                "stay_duration": 851146,
+                "timestamp": "2025-01-09T05:58:00.898Z"
+            },
+            {
+                "step_idx": 2,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000002.jpg",
+                "stay_duration": 583397,
+                "timestamp": "2025-01-09T06:07:44.296Z"
+            },
+            {
+                "step_idx": 3,
+                "start_image_id": "00000002.jpg",
+                "clicked_image_id": "00000003.jpg",
+                "stay_duration": 4356,
+                "timestamp": "2025-01-09T06:07:48.654Z"
+            }
+        ]
+    },
+    {
+        "question_idx": 2,
+        "timesteps": [
+            {
+                "step_idx": 1,
+                "start_image_id": "00000003.jpg",
+                "clicked_image_id": "00000002.jpg",
+                "stay_duration": 1536,
+                "timestamp": "2025-01-03T09:45:39.833Z"
+            },
+            {
+                "step_idx": 2,
+                "start_image_id": "00000002.jpg",
+                "clicked_image_id": "00000003.jpg",
+                "stay_duration": 11955,
+                "timestamp": "2025-01-03T09:45:51.788Z"
+            },
+            {
+                "step_idx": 3,
+                "start_image_id": "00000003.jpg",
+                "clicked_image_id": "00000004.jpg",
+                "stay_duration": 480,
+                "timestamp": "2025-01-03T09:45:52.268Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000002.jpg",
+                "stay_duration": 34048,
+                "timestamp": "2025-01-03T10:20:10.327Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000003.jpg",
+                "clicked_image_id": "00000002.jpg",
+                "stay_duration": 5287,
+                "timestamp": "2025-01-03T10:20:35.873Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000002.jpg",
+                "stay_duration": 12501,
+                "timestamp": "2025-01-03T11:13:53.041Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000002.jpg",
+                "stay_duration": 6706,
+                "timestamp": "2025-01-03T11:21:44.132Z"
+            },
+            {
+                "step_idx": 2,
+                "start_image_id": "00000002.jpg",
+                "clicked_image_id": "00000003.jpg",
+                "stay_duration": 4877,
+                "timestamp": "2025-01-03T11:21:49.009Z"
+            },
+            {
+                "step_idx": 3,
+                "start_image_id": "00000003.jpg",
+                "clicked_image_id": "00000004.jpg",
+                "stay_duration": 1014,
+                "timestamp": "2025-01-03T11:21:50.023Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000002.jpg",
+                "stay_duration": 8603,
+                "timestamp": "2025-01-03T11:23:44.966Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000002.jpg",
+                "clicked_image_id": "00000002.jpg",
+                "stay_duration": 1888,
+                "timestamp": "2025-01-03T11:24:50.362Z"
+            },
+            {
+                "step_idx": 2,
+                "start_image_id": "00000002.jpg",
+                "clicked_image_id": "00000003.jpg",
+                "stay_duration": 3215,
+                "timestamp": "2025-01-03T11:24:53.578Z"
+            },
+            {
+                "step_idx": 3,
+                "start_image_id": "00000003.jpg",
+                "clicked_image_id": "00000004.jpg",
+                "stay_duration": 804,
+                "timestamp": "2025-01-03T11:24:54.382Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000003.jpg",
+                "clicked_image_id": "00000004.jpg",
+                "stay_duration": 4126,
+                "timestamp": "2025-01-03T11:25:01.058Z"
+            },
+            {
+                "step_idx": 2,
+                "start_image_id": "00000004.jpg",
+                "clicked_image_id": "00000003.jpg",
+                "stay_duration": 587,
+                "timestamp": "2025-01-03T11:25:01.646Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000003.jpg",
+                "clicked_image_id": "00000002.jpg",
+                "stay_duration": 2033,
+                "timestamp": "2025-01-03T11:34:39.618Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000002.jpg",
+                "stay_duration": 29400,
+                "timestamp": "2025-01-03T11:45:13.486Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000004.jpg",
+                "clicked_image_id": "00000002.jpg",
+                "stay_duration": 4467,
+                "timestamp": "2025-01-03T11:45:19.602Z"
+            },
+            {
+                "step_idx": 2,
+                "start_image_id": "00000002.jpg",
+                "clicked_image_id": "00000003.jpg",
+                "stay_duration": 5339,
+                "timestamp": "2025-01-03T11:45:24.941Z"
+            },
+            {
+                "step_idx": 3,
+                "start_image_id": "00000003.jpg",
+                "clicked_image_id": "00000004.jpg",
+                "stay_duration": 710,
+                "timestamp": "2025-01-03T11:45:25.651Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000003.jpg",
+                "clicked_image_id": "00000004.jpg",
+                "stay_duration": 4056,
+                "timestamp": "2025-01-03T11:45:31.613Z"
+            },
+            {
+                "step_idx": 2,
+                "start_image_id": "00000004.jpg",
+                "clicked_image_id": "00000003.jpg",
+                "stay_duration": 520,
+                "timestamp": "2025-01-03T11:45:32.134Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000002.jpg",
+                "stay_duration": 39637,
+                "timestamp": "2025-01-09T05:43:36.087Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000002.jpg",
+                "clicked_image_id": "00000002.jpg",
+                "stay_duration": 2294,
+                "timestamp": "2025-01-09T05:43:43.351Z"
+            },
+            {
+                "step_idx": 2,
+                "start_image_id": "00000002.jpg",
+                "clicked_image_id": "00000003.jpg",
+                "stay_duration": 3931,
+                "timestamp": "2025-01-09T05:43:47.284Z"
+            },
+            {
+                "step_idx": 3,
+                "start_image_id": "00000003.jpg",
+                "clicked_image_id": "00000004.jpg",
+                "stay_duration": 590,
+                "timestamp": "2025-01-09T05:43:47.875Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000003.jpg",
+                "clicked_image_id": "00000002.jpg",
+                "stay_duration": 629830,
+                "timestamp": "2025-01-09T06:18:18.484Z"
+            },
+            {
+                "step_idx": 2,
+                "start_image_id": "00000002.jpg",
+                "clicked_image_id": "00000003.jpg",
+                "stay_duration": 233145,
+                "timestamp": "2025-01-09T06:22:11.631Z"
+            }
+        ]
+    },
+    {
+        "question_idx": 3,
+        "timesteps": [
+            {
+                "step_idx": 1,
+                "start_image_id": "00000004.jpg",
+                "clicked_image_id": "00000003.jpg",
+                "stay_duration": 1575,
+                "timestamp": "2025-01-03T09:45:53.843Z"
+            },
+            {
+                "step_idx": 2,
+                "start_image_id": "00000003.jpg",
+                "clicked_image_id": "00000004.jpg",
+                "stay_duration": 705,
+                "timestamp": "2025-01-03T09:45:54.548Z"
+            },
+            {
+                "step_idx": 3,
+                "start_image_id": "00000004.jpg",
+                "clicked_image_id": "00000005.jpg",
+                "stay_duration": 37963,
+                "timestamp": "2025-01-03T09:46:32.512Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000004.jpg",
+                "clicked_image_id": "00000003.jpg",
+                "stay_duration": 2549,
+                "timestamp": "2025-01-03T11:24:56.932Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000003.jpg",
+                "clicked_image_id": "00000003.jpg",
+                "stay_duration": 1915,
+                "timestamp": "2025-01-03T11:25:03.562Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000004.jpg",
+                "clicked_image_id": "00000003.jpg",
+                "stay_duration": 1904,
+                "timestamp": "2025-01-03T11:45:27.556Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000003.jpg",
+                "clicked_image_id": "00000003.jpg",
+                "stay_duration": 1774,
+                "timestamp": "2025-01-03T11:45:33.909Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000004.jpg",
+                "clicked_image_id": "00000003.jpg",
+                "stay_duration": 1877,
+                "timestamp": "2025-01-09T05:43:49.752Z"
+            }
+        ]
+    },
+    {
+        "question_idx": 4,
+        "timesteps": [
+            {
+                "step_idx": 1,
+                "start_image_id": "00000005.jpg",
+                "clicked_image_id": "00000004.jpg",
+                "stay_duration": 1786,
+                "timestamp": "2025-01-03T09:46:34.299Z"
+            },
+            {
+                "step_idx": 2,
+                "start_image_id": "00000004.jpg",
+                "clicked_image_id": "00000005.jpg",
+                "stay_duration": 1968723,
+                "timestamp": "2025-01-03T10:19:23.022Z"
+            },
+            {
+                "step_idx": 3,
+                "start_image_id": "00000005.jpg",
+                "clicked_image_id": "00000006.jpg",
+                "stay_duration": 505,
+                "timestamp": "2025-01-03T10:19:23.527Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000006.jpg",
+                "stay_duration": 8008,
+                "timestamp": "2025-01-03T10:19:33.623Z"
+            },
+            {
+                "step_idx": 2,
+                "start_image_id": "00000006.jpg",
+                "clicked_image_id": "00000005.jpg",
+                "stay_duration": 651,
+                "timestamp": "2025-01-03T10:19:34.274Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000002.jpg",
+                "clicked_image_id": "00000004.jpg",
+                "stay_duration": 6400,
+                "timestamp": "2025-01-03T10:20:42.274Z"
+            },
+            {
+                "step_idx": 2,
+                "start_image_id": "00000004.jpg",
+                "clicked_image_id": "00000005.jpg",
+                "stay_duration": 6431,
+                "timestamp": "2025-01-03T10:20:48.706Z"
+            },
+            {
+                "step_idx": 3,
+                "start_image_id": "00000005.jpg",
+                "clicked_image_id": "00000006.jpg",
+                "stay_duration": 8557,
+                "timestamp": "2025-01-03T10:20:57.264Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000006.jpg",
+                "stay_duration": 3029,
+                "timestamp": "2025-01-03T11:03:14.757Z"
+            },
+            {
+                "step_idx": 2,
+                "start_image_id": "00000006.jpg",
+                "clicked_image_id": "00000005.jpg",
+                "stay_duration": 650,
+                "timestamp": "2025-01-03T11:03:15.408Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000006.jpg",
+                "stay_duration": 6637,
+                "timestamp": "2025-01-03T11:13:30.202Z"
+            },
+            {
+                "step_idx": 2,
+                "start_image_id": "00000006.jpg",
+                "clicked_image_id": "00000005.jpg",
+                "stay_duration": 787,
+                "timestamp": "2025-01-03T11:13:30.989Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000002.jpg",
+                "clicked_image_id": "00000004.jpg",
+                "stay_duration": 2023,
+                "timestamp": "2025-01-03T11:13:55.065Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000006.jpg",
+                "stay_duration": 19755,
+                "timestamp": "2025-01-03T11:34:06.159Z"
+            },
+            {
+                "step_idx": 2,
+                "start_image_id": "00000006.jpg",
+                "clicked_image_id": "00000005.jpg",
+                "stay_duration": 779,
+                "timestamp": "2025-01-03T11:34:06.938Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000006.jpg",
+                "stay_duration": 1385,
+                "timestamp": "2025-01-03T11:34:20.679Z"
+            },
+            {
+                "step_idx": 2,
+                "start_image_id": "00000006.jpg",
+                "clicked_image_id": "00000005.jpg",
+                "stay_duration": 787,
+                "timestamp": "2025-01-03T11:34:21.467Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000006.jpg",
+                "stay_duration": 7520,
+                "timestamp": "2025-01-03T11:34:30.862Z"
+            },
+            {
+                "step_idx": 2,
+                "start_image_id": "00000006.jpg",
+                "clicked_image_id": "00000005.jpg",
+                "stay_duration": 557,
+                "timestamp": "2025-01-03T11:34:31.420Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000001.jpg",
+                "clicked_image_id": "00000006.jpg",
+                "stay_duration": 3564,
+                "timestamp": "2025-01-03T11:36:58.819Z"
+            },
+            {
+                "step_idx": 2,
+                "start_image_id": "00000006.jpg",
+                "clicked_image_id": "00000005.jpg",
+                "stay_duration": 894,
+                "timestamp": "2025-01-03T11:36:59.713Z"
+            },
+            {
+                "step_idx": 1,
+                "start_image_id": "00000002.jpg",
+                "clicked_image_id": "00000004.jpg",
+                "stay_duration": 1648,
+                "timestamp": "2025-01-03T11:45:15.135Z"
+            }
+        ]
+    }
+]
