@@ -1,16 +1,6 @@
 <div align="center" style="font-family: charter;">
   <h1>Decoding Urban Industrial Complexity:<br>Enhancing Knowledge-Driven Insights via IndustryScopeGPT</h1>
 
-<p align="center">
-    <a href="https://dl.acm.org/doi/abs/10.1145/3664647.3681705">
-        <img alt="Web" src="https://img.shields.io/badge/Web-ACMMM-orange"></a>
-    <a href="https://arxiv.org/abs/2411.15758">
-        <img alt="Paper" src="https://img.shields.io/badge/Paper-Arxiv-green"></a>
-    <a href="https://www.youtube.com/watch?v=5X-Il5Ndkao&t=1661s">
-        <img alt="YouTube" src="https://img.shields.io/badge/YouTube-Subscribe-red?logo=youtube"></a>        
-
-</p>
-
 
 <img src="assets/figure1.png" width="93%"/>
 
@@ -35,9 +25,6 @@ The IndustryScopeGPT framework was developed to enhance the planning, action, an
 <img src="assets/figure5.jpg" width="91.5%"/>
 </p>
 
-## 📰 Updates
-- **`2024/10/28`**  We’re thrilled to share that our work, [Decoding Urban Industrial Complexity: Enhancing Knowledge-Driven Insights via IndustryScopeGPT](https://dl.acm.org/doi/abs/10.1145/3664647.3681705), has been published by the ACM MM 2024 conference. We are profoundly grateful for the contributions of all the contributors to this work！
-- **`2024/07/23`**  We are honored to share and present our work at the [MIT Media Lab-City Science Lab Community Meeting](https://www.youtube.com/watch?v=5X-Il5Ndkao&t=1661s). For more details, please visit the City Science Lab website: [Design and Data-Driven Hybrid Community Building](https://www.media.mit.edu/events/design-and-data-driven-hybrid-community-building-city-science-lab-shanghai/).
 
 ## 🔗 IndustryscopeKG Data
 
@@ -172,43 +159,6 @@ Table 2: The Statistics of Triples in IndustryScopeKG
 ### 🌟 Usage Notes
 The dataset can be used standalone or integrated into your projects. It works particularly well with graph-based reasoning frameworks.
 For LLM-based planning and operations, the dataset complements the IndustryScopeGPT framework, providing a dynamic and insightful environment for urban and industrial research.
-
-
-
----
-
-## 🤖 IndustryscopeGPT
-
-### Model Inference
-IndustryscopeGPT scripts will be available soon under the folder ```scripts```.
-
----
-
-## 🤗 Citation 
-
-If our work sparks your interest or helps your research, a little cite would mean a lot!
-
-```bibtex
-@inproceedings{10.1145/3664647.3681705,
-author = {Wang, Siqi and Liang, Chao and Gao, Yunfan and Liu, Yang and Li, Jing and Wang, Haofen},
-title = {Decoding Urban Industrial Complexity: Enhancing Knowledge-Driven Insights via IndustryScopeGPT},
-year = {2024},
-isbn = {9798400706868},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-url = {https://doi.org/10.1145/3664647.3681705},
-doi = {10.1145/3664647.3681705},
-abstract = {Industrial parks are critical to urban economic growth. Yet, their development often encounters challenges stemming from imbalances between industrial requirements and urban services, underscoring the need for strategic planning and operations. This paper introduces IndustryScopeKG, a pioneering large-scale multi-modal, multi-level industrial park knowledge graph, which integrates diverse urban data including street views, corporate, socio-economic, and geospatial information, capturing the complex relationships and semantics within industrial parks. Alongside this, we present the IndustryScopeGPT framework, which leverages Large Language Models (LLMs) with Monte Carlo Tree Search to enhance tool-augmented reasoning and decision-making in Industrial Park Planning and Operation (IPPO). Our work significantly improves site recommendation and functional planning, demonstrating the potential of combining LLMs with structured datasets to advance industrial park management. This approach sets a new benchmark for intelligent IPPO research and lays a robust foundation for advancing urban industrial development. The dataset and related code are available at https://github.com/Tongji-KGLLM/IndustryScope.},
-booktitle = {Proceedings of the 32nd ACM International Conference on Multimedia},
-pages = {4757–4765},
-numpages = {9},
-keywords = {industrial park planning and operation, large language model agent, urban design and planning, urban knowledge graph},
-location = {Melbourne VIC, Australia},
-series = {MM '24}
-}
-
-
-```
 
 
 
