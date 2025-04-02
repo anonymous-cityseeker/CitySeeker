@@ -75,7 +75,7 @@ Three strategies to mitigate error accumulation in long trajectories:
 
 ### 🗺️ **Enriching Spatial Cognition**  
 - **Topology Cognitive Graph (C1)**: In this approach, the VLM is provided with a topological graph of recently traversed segments, which explicitly defines the connectivity between various locations.
-- **Relative Position Maps (C2)**: In contrast, this approach emphasizes the spatial orientation of locations without directly specifying connectivity. 
+- **Relative Position Map (C2)**: In contrast, this approach emphasizes the spatial orientation of locations without directly specifying connectivity. 
 <p align="center">
 <img src="assets/c1.png" width="95%"/>
 </p>
