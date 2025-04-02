@@ -101,7 +101,7 @@ We welcome community participation in human testing! Evaluation code and interfa
 
 
 ### Dataset Access
-- **Raw image & topological graph data**: [Baidu Netdisk](https://pan.baidu.com/s/1HS3HL-uSUdxb69rmAOi0bw?pwd=2vjj)
+- **Raw image & topological graph data**: [Netdisk](https://pan.baidu.com/s/1HS3HL-uSUdxb69rmAOi0bw?pwd=2vjj)
   
 - **Benchmark trajectories**: See `example/` folder for real navigation paths
 
