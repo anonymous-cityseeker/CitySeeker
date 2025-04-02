@@ -106,5 +106,5 @@ We welcome community participation in human testing! Evaluation code and interfa
 - **Benchmark trajectories**: See `example/` folder for real navigation paths
 
 ## 🌐 License  
-This project is open-sourced under **MIT License**.  
+This project is open-sourced under **Apache-2.0 license**.  
 *Data for research use only. Commercial use requires permission.*  
