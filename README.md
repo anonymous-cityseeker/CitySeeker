@@ -51,13 +51,19 @@ The CitySeeker Implicit-Requested Emobodied Urban Navigation Framework.
 - **TCE (Task Completion Error)**, **TCP (Task Completion Precision)**, **TCC (Task Completion Consistency)**  
 - **SPD (Shortest Path Distance)**, **nDTW (Normalized Dynamic Time Warping)**  
 
-| **Model**          | **TCE**  | **TCP**  | **TCC**  | **SPD**  | **nDTW** |  
-|--------------------|----------|----------|----------|----------|----------|  
-| **GPT-4o**         | 2.39%    | 18.30%   | 6.84%    | 125.40   | 136.97   |  
-| **Gemini-1.5-pro** | 1.91%    | 15.43%   | 7.48%    | 157.14   | 241.86   |  
-| **InternVL2.5-38B**| 2.23%    | 18.14%   | 7.16%    | 136.55   | 169.18   |  
 
-*(Full results in paper)*  
+
+| **Model**          | **TCE** | **TCP** | **TCC** | **SPD** | **nDTW** |  
+|--------------------|---------|---------|---------|---------|----------|  
+| **GPT-4o**         | 2.4%    | 18.3%   | 6.8%    | 125.4   | 136.9    |  
+| **Gemini-2.5-pro** | 1.8%    | 17.3%   | 5.0%    | 121.8   | 121.2    |  
+| **InternVL2.5-38B**| 2.2%    | 18.1%   | 7.2%    | 136.6   | 169.2    |  
+| **Qwen2.5-VL-32B** | 2.6%    | 21.1%   | 6.2%    | 122.6   | 147.0    |  
+| **InternVL3-38B**  | 2.5%    | 19.3%   | 6.7%    | 115.8   | 128.3    |  
+| **InternVL3-14B**  | 1.7%    | 15.1%   | 6.4%    | 136.2   | 170.8    |  
+
+*(Full results including subcategory breakdowns available in paper)*
+
 
 ---
 
