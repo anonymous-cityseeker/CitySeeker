@@ -67,7 +67,7 @@ The CitySeeker Implicit-Requested Emobodied Urban Navigation Framework.
 
 ---
 
-## 🔍 Key Innovations  
+## 🔍 Key Insights-BCR  
 
 ### 🔄 **Backtracking Mechanisms**  
 Three strategies to mitigate error accumulation in long trajectories:  
